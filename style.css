@@ -71,11 +71,11 @@ div{
 }
 .hr0{
     width: 25%;
-    height: 20px;
+    height: 10px;
     border: rgb(245, 254, 255);
-    background-color: #ced9eb;
+    background-color: #aefffa;
     border-radius: 2%;
-    box-shadow:  0px 1px 0px 0px  #6185BF;
+ 
 }
 
 
@@ -341,15 +341,101 @@ div{
 .imgcard{
     border-radius: 15%;
 }
-#imagecard1{
-   position: relative;
-}
+
 #imagecard2{
-    position: relative;
+    
 }
 #imagecard3{
-    position: relative;
+    
 }
 
 
+.parentcontainer{
+    position: relative;
+   
+}
 
+#absolutetext{
+    position: absolute;
+    
+}
+#imagecard1{
+ 
+  
+}
+
+#parent{
+    position: relative;
+    text-align: center;
+    
+}
+#child1 > img{
+    position: absolute;
+    width:105px;
+    height: 105px;
+    left: 895px;
+}
+
+#child2 > p{
+    position: absolute;
+    top: 6px;
+    left: 930px;
+}
+
+#child2 span{
+    color:#305ca3;
+}
+#child2 span::before { 
+    content: "'◡'"; 
+    animation: animate infinite 2s; 
+    
+} 
+
+@keyframes animate { 
+    
+    0% { 
+        content: "˚◡˚"; 
+    } 
+    10% { 
+        content: "˚◡˚"; 
+    } 
+    20% { 
+        content: "˚◡˚"; 
+    } 
+    30% { 
+        content: "˚◡˚"; 
+    } 
+    40% { 
+        content: "˚◡˚"; 
+    } 
+    50% {
+        content: "˚◡˚"; 
+    } 
+    60% { 
+        content: "˚◡˚"; 
+    } 
+    70% { 
+        content: "˚◡˚"; 
+    } 
+    80% { 
+        content: "˚◡˚"; 
+    } 
+    90% { 
+        content: "˚◡˚"; 
+    } 
+} 
+
+
+.artreference{
+    text-decoration: none;
+    text-align: center;
+
+}
+.artreference a:hover{
+    background-color: red;
+}
+
+.parentcontainer > h1{
+    color: #95f100;
+    text-align: center;
+}
