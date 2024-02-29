@@ -40,6 +40,11 @@ div{
      /*border: solid 1px red;/*utility border*/
 }
 
+@media (max-width: 599px){
+    .tableofcontents > #tree {
+        display: none;
+    }
+}
 /*toppage------------------------------------y      */
 .loadingbarcontainer{
     display: flex;
@@ -287,6 +292,12 @@ div{
     background-color: #6185BF;
     color: #00ffee;
 }
+
+
+.projectdirectingbutton{
+    text-decoration: none;
+    color: #3484c5;
+}
 /*maincontent---------------------------------*/
 
 
@@ -329,7 +340,7 @@ div{
     justify-content: center;
     
 }
-#mid{
+#contacts{
     text-align: center;
 }
 
