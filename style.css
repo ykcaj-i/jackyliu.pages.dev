@@ -36,15 +36,17 @@ body{
     top: 0;
     width: 100%;
 }
-div{
-     /*border: solid 1px red;/*utility border*/
-}
 
 @media (max-width: 599px){
     .tableofcontents > #tree {
         display: none;
     }
 }
+
+div{
+    /*border: solid 1px red;/*utility border*/
+}
+
 /*toppage------------------------------------y      */
 .loadingbarcontainer{
     display: flex;
@@ -447,7 +449,7 @@ div{
 }
 
 .parentcontainer > h1{
-    color: #4dfdc8;
+    color: #00f3e3;
     text-align: center;
 }
 
@@ -465,4 +467,9 @@ div{
 #midway > span{
     border: solid 2px #00f3e3;
     color: #00f3e3;
+}
+
+
+#txt{
+    font-size: 150%;
 }
