@@ -17,7 +17,6 @@ body{
 
 .darkmode{
     background-color: rgb(0, 10, 19);
-
 }
 .button {
     background-color: transparent;
@@ -37,14 +36,22 @@ body{
     width: 100%;
 }
 
-@media (max-width: 599px){
-    .tableofcontents > #tree {
-        display: none;
-    }
-}
+
 
 div{
     /*border: solid 1px red;/*utility border*/
+}
+#utilitybutton{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #00ffee;
+    font-size: 120%;
+    
+}
+#utilitybutton:hover{
+    color: #00f3e3;
+    cursor: pointer;
 }
 
 /*toppage------------------------------------y      */
@@ -77,12 +84,9 @@ div{
    border-bottom: solid 1px  #00ffee;
 }
 .hr0{
-    width: 25%;
-    height: 10px;
-    border: rgb(245, 254, 255);
-    background-color: #aefffa;
-    border-radius: 2%;
- 
+    border: dotted 1.5px; 
+    border-color: #6185BF; 
+    width: 70%;
 }
 
 
@@ -161,7 +165,12 @@ div{
 
 }
 
-
+@media(max-width:599px){
+    .imagetextcenter{
+        width: 26%;
+        height: 26%;
+    }
+}
 /*name---------------------------------------y      */
 
 
@@ -206,8 +215,8 @@ div{
 #tree {
 
 }
-.bar{
-    border: solid 1px white;
+#bar{
+    border: solid 1px rgb(245, 254, 255);
     text-align: center;
 }
 #topic{
@@ -230,13 +239,24 @@ div{
     text-align: center;
     height: 100%;
     width: 2px;
-    background-color:#6185BF;
-    
+    background-color:transparent;
+    border-style: dashed;
+    border-color: rgb(0, 255, 238);
 }
 
 #scrollbar{
     color: #00ffee;
     position: fixed;
+}
+@media (max-width: 1500px){
+    .tableofcontents > #tree {
+        display: none;
+    }
+}
+@media (min-width:600px){
+    #tree > #bar, #verticalhr, #scrollbar{
+        display: none;
+    }
 }
 /*tableofcontents-----------------------------*/
 
@@ -308,7 +328,7 @@ div{
     
     /*border: solid 1px blue;*/
     
-    text-align: left;
+    text-align: center;
   
 }
 
