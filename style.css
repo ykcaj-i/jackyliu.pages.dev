@@ -379,11 +379,11 @@ div{
 #child2 > p{
     position: absolute;
     top: 6px;
-    left: 930px;
+    left: 932px;
 }
 
 #child2 span{
-    color:#305ca3;
+    color:#3e72c5;
 }
 #child2 span::before { 
     content: "'◡'"; 
@@ -436,6 +436,22 @@ div{
 }
 
 .parentcontainer > h1{
-    color: #95f100;
+    color: #4dfdc8;
     text-align: center;
+}
+
+#minilogo{
+    width: 1%;
+    height: 1%;
+    text-align: center;
+}
+
+#midway{
+    text-align: center;
+    
+}
+
+#midway > span{
+    border: solid 2px #00f3e3;
+    color: #00f3e3;
 }
