@@ -14,6 +14,7 @@
         <div class = "nav"> 
             <div class="loadingbarcontainer">
                 <h2 class = "loadingbar"><span>&nbsp;< Jacky Liu >&nbsp;</span></h2>
+                
                     <div id = "logoposition">&nbsp;
                         <a href = "https://github.com/ykcaj-i" target = "_blank">
                             <img class = "logo" src = "images/githubcyanbb.png"></a>
@@ -31,11 +32,12 @@
             <br>
             <br>
             
-            <div class = "navcontent">
+            <div class = "navcontent" id = "navcontent">
                 <a href="https://google.com" target = "_blank" class="navbuttons">home</a>
-                <a href = #album class="navbuttons">album</a>
+                <a href = #album class="navbuttons">art</a>
                 <a href = #midway class="navbuttons">contact</a>
-                <button class = "button" onclick="myFunction0()">☾ ⊹ ☀︎</button>
+                <button class = "button" id = "darkmode" onclick="myFunction0()">☾ ⊹ ☀︎</button>
+                
             </div> 
         </div> 
     </nav>
@@ -75,25 +77,28 @@
 
         <!-----------table of contents-->
         <div class="tableofcontents" id = "flexboxspacing">
+            
             <div class="tree" id = "tree">
-                <section>
+                
                     <p id = "topictitle"><span id = "hovertopic"><b>table of contents:</b></span></p>
                     <a id = "topic" href = #top><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #about><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #projects><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #software><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;software&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #hackathons><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;hackathons&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
-                   
-                </section>
+                    
+                
+                
             </div>
            
             <div id ="bar">
-               
+                
                 <p id = "scrollbar"><b>∣</b></p>
                 <br>
                 <hr id = "verticalhr">
                 
             </div>
+            
         </div>
         <!-----------table of contents-->
 
@@ -139,7 +144,7 @@
                     <div id = "abouttitles"><br>&nbsp;⋮ projects</div><br>
                         <div id = "span1">
                             <a class="aboutbuttons">portfolio</a>
-                            <a class="aboutbuttons">jackyscript</a>
+                            <a class="aboutbuttons">jckyscript</a>
                             <a class="aboutbuttons">directblue</a>
                             <a class="aboutbuttons">hexc</a>
                             <a class="aboutbuttons">lolsoft</a>
@@ -151,7 +156,8 @@
                 <div class="aboutdesc">
                     <br>
                         <span>
-                            <p id = "para">❱ this portfolio site was coded using very basic html, css, and minimal javascript. this site employs very simple css techniques like flexbox for formatting &nbsp;&nbsp;purposes.</p>
+                            <p id = "para">❱ <b>portfolio:</b> this site was coded using very basic html, css, and minimal javascript. this site employs 
+                                                                very simple css techniques like flexbox for formatting purposes.</p>
                         </span>
                     <br>
                     <br>
@@ -257,15 +263,18 @@
         </div>
         <div class="misc" id = "flexboxspacing">
             <div>
-                <br><br>
-                <button id = "utilitybutton" onClick="window.location.reload();">⟲</button>
-                <br><br>
-                <a id = "topic" href = #top><p id = "topictitle"><span id = "hovertopic">↑</span></p></a>
-                <a id = "topic" href = #about><p id = "topictitle"><span id = "hovertopic">a</span></p></a>
-                <a id = "topic" href = #projects><p id = "topictitle"><span id = "hovertopic">p</span></p></a>
-                <a id = "topic" href = #software><p id = "topictitle"><span id = "hovertopic">s</span></p></a>
-                <a id = "topic" href = #hackathons><p id = "topictitle"><span id = "hovertopic">h</span></p></a>
+                
+                
+                <br><br> <br><br> <br><br>
+                <div id = "sideimages">
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/bluepurp.png"></p>
+                    <br><br> <br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/bluepurp.png"></p>
+                </div>
+                
+                
             </div>
+            
         </div>
     </div>
  <!-------------------------------------------------------------------------------------------------------------------------------mainpage content\\--->
@@ -287,17 +296,40 @@
         <p id = "para1"> <b>contacts:</b><br><br><br><b>professional:</b> jliufend@gmail.com<br><br><b> general:</b> jliuarc@gmail.com</p>
     </div>
     
-    <br><br><br>
-                   
+    <br><br><br> <br><br><br><br><br>
+    <div class="endbox">
+
+        <div class="endboxitem" id = "endboxitem2">
+            <div class="patreon">
+            <a href = "https://patreon.com" tagret = "_blank"><img id = "gmaillogo" src = "images/gmail1.gif"></a>
+            <p id = "backtotop">shoot me<br> a message</p>
+            </div>  
+        </div>
+
+        
+        <div class="endboxitem" id = "endboxitem1">
+            <div class="patreon">
+                <a href = "https://patreon.com" tagret = "_blank"><img id = "xlogo" src = "images/x.gif"></a>
+                <p id = "backtotop">follow me<br> on twitter</p>
+            </div>  
+        </div>
+
+        <div class="endboxitem" id = "endboxitem1">
+            <div class="patreon">
+                <a href = "https://patreon.com" tagret = "_blank"><img id = "patreonlogo" src = "images/patreonlogot.gif"></a>
+                <p id = "backtotop">support me<br> on patreon</p>
+            </div>  
+        </div>
+    
+        
+    </div>    
                   
  <!-------------------------------------------------------------------------------------------------------------------------------secondpage content\\--->
     <div class = "secondpage">
             <div class = "imagecontent">
-                <br><br><br><br><br><br>
-                
-                <br><br><br><br><br><br>
+                <br><br><br><br><br>
                 <div class = "parentcontainer" id = "album">
-                    <h1>art by @ yuka7</h1>    
+                    <h1><a href = "https://instagram.com" target = "_blank"><img src = "images/.png" alt = "x"></a><br> art collective</h1>    
                     <br><br>    <br><br>
                     <img class = "imgcard" id = "imagecard1" src = "./images/terraartica.png">
                     <br><br><br><br>
@@ -312,8 +344,30 @@
                 <img class = "imgcard" id = "imagecard2" src = "./images/bluewhite3.png">
                 <br><br><br><br><br><br><br><br><br><br><br><br>
                 <img class = "imgcard" id = "imagecard3" src = "./images/greencyan.png">
+                
             </div>
     </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+   
+    
+    
+        
+   
+    <!--<div id="parent">
+                <div id = "child1">
+                    <img src = "images/pfp3dblank.png">
+                </div>
+                <div id = "child2">
+                    <p><span></span></p>
+                </div>
+               <br><br><br>
+               <div id = "contacts">
+                <p id = "backtotop">find this art on instagram</p>
+                </div>  
+            </div>   -->
+    <br><br><br> <br> <br>
+
     <div id="parent">
         <div id = "child1">
             <img src = "images/pfp3dblank.png">
@@ -321,11 +375,22 @@
         <div id = "child2">
             <p><span></span></p>
         </div>
-    </div>    
-    <br><br><br><br><br>
-    <div id = "contacts">
+    </div> 
+       <br><br><br> <br> <br>
+       <div id = "contacts">
         <p id = "para1">stay tuned for<br> more future projects!</p>
+        </div>  
+    </div>    
+    
+    
+        <br><br><br>
+         
+        <div id = "contacts">
+        <a href = #top id = "backtotop"><h4>↑<br>back to top</h4></a>
+        <hr class = "hr0">
+        <span><button id = "utilitybutton" onClick="window.location.reload();">⟲</button><button id = "utilitybutton" onClick="window.location.reload();">⟲</button></span>
     </div>
+    
 <!-------------------------------------------------------------------------------------------------------------------------------secondpage content\\--->
 
 

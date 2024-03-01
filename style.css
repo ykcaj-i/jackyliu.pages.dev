@@ -85,8 +85,8 @@ div{
 }
 .hr0{
     border: dotted 1.5px; 
-    border-color: #6185BF; 
-    width: 70%;
+    border-color: #00ffee; 
+    width: 10%;
 }
 
 
@@ -126,6 +126,14 @@ div{
     color: rgb(245, 254, 255);
     background-color: rgba(32, 255, 236, 0.445);
 }
+
+@media(max-width:599px){
+    #navcontent > #darkmode{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+}
 /*navcontent---------------------------------y      */
 
 /*name---------------------------------------x      */
@@ -146,7 +154,7 @@ div{
 
 .imagetextcenter{
     display: flex;
-    padding-left: 11em;
+    padding-left: 12em;
     justify-content: center;
     
 }
@@ -167,8 +175,10 @@ div{
 
 @media(max-width:599px){
     .imagetextcenter{
-        width: 26%;
-        height: 26%;
+        width: 30%;
+        height: 30%;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 /*name---------------------------------------y      */
@@ -254,7 +264,7 @@ div{
     }
 }
 @media (min-width:600px){
-    #tree > #bar, #verticalhr, #scrollbar{
+    #flexboxspacing > #bar, #verticalhr, #scrollbar{
         display: none;
     }
 }
@@ -328,10 +338,20 @@ div{
     
     /*border: solid 1px blue;*/
     
-    text-align: center;
-  
+    text-align: left;
+    
 }
 
+#sideimagescontainer > img{
+    border-radius: 15%;
+    width: 150px;
+}
+@media (max-width:599px) {
+    #sideimagescontainer{
+        display: none;
+    }
+
+}
 
 /*sidecontent---------------------------------*/
 
@@ -492,4 +512,59 @@ div{
 
 #txt{
     font-size: 150%;
+}
+
+
+#backtotop{
+    color: #00f3e3;
+    text-decoration: none;
+}
+
+
+#patreonlogo{
+    width: 50px;
+    height: 50px;
+    
+}
+#gmaillogo{
+    width: 50px;
+    height: 40px;
+    padding-top:10px;
+}
+#outlooklogo{
+    width: 55px;
+    height: 55px;
+    
+}
+.patreon{
+    text-align: center;
+}
+
+
+.endbox{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.endboxitem{
+    padding: 50px;
+    
+}
+
+
+#endboxitem3{
+    
+}
+
+
+#outlookpreciseprecision{
+    padding-bottom: 25px;
+}
+
+
+#xlogo{
+    width: 75px;
+    height: 50px;
 }
