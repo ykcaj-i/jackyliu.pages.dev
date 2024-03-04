@@ -582,3 +582,8 @@ div{
     text-decoration: none;
     color: #00f3e3;
 }
+
+#email{
+    color: #00f3e3;
+    padding: 50px;
+}

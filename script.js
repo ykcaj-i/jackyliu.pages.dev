@@ -30,6 +30,7 @@ function myFunction0() {
 
 
     
+ 
   function myFunction1() {
     var element = document.div;
     element.classList.toggle("gradientchange");
