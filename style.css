@@ -191,9 +191,7 @@ div{
 }
 
 /*mainpage------------------------------------------------------*/
-@media (min-width: 200px){
 
-}
 .mainpage{
     
     display: flex;
@@ -203,6 +201,7 @@ div{
 }
 #flexboxspacing{
     width: 100%;
+    
 }
 
 /*tableofcontents----------------------------*/
@@ -276,14 +275,21 @@ div{
 
 
 /*maincontent---------------------------------*/
-.maincontent{
 
-    display: grid;
-    border: whitesmoke;
-    border-radius: 1%;
+@media (max-width: 599px){
+    .maincontent >  div{
+        width: 30em;
+    }
+}
+
+.maincontent{
     background-color: rgb(245, 254, 255);
     background-image: linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
     box-shadow:  0 0 80px 10px  rgb(206, 255, 251);
+    display: grid;
+    border: whitesmoke;
+    border-radius: 1%;
+    
 }
 .aboutcontent{
     padding: 0 5em;
@@ -534,11 +540,8 @@ div{
     height: 40px;
     padding-top:10px;
 }
-#outlooklogo{
-    width: 55px;
-    height: 55px;
-    
-}
+  
+
 .patreon{
     text-align: center;
 }
@@ -562,11 +565,6 @@ div{
 }
 
 
-#outlookpreciseprecision{
-    padding-bottom: 25px;
-}
-
-
 #xlogo{
     width: 75px;
     height: 50px;
@@ -587,3 +585,4 @@ div{
     color: #00f3e3;
     padding: 50px;
 }
+
