@@ -1,3 +1,11 @@
+
+
+
+
+
+<!--original code -->
+
+
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -15,7 +23,9 @@
    <!------------------------------------------------------------------navbar//--->
     <nav  id = "nav">
         <div class = "nav"> 
-                    <br><br>
+            <div class="loadingbarcontainer">
+                <h2 class = "loadingbar"><span>&nbsp; Jacky Liu &nbsp;</span></h2>
+                
                     <div id = "logoposition">&nbsp;
                         <a href = "https://github.com/ykcaj-i" target = "_blank">
                             <img class = "logo" src = "images/githubcyanbb.png"></a>
@@ -25,47 +35,86 @@
                             <img class = "logo" src = "images/devpostlogobb.png"></a>
                         <a href = "https://open.spotify.com/user/4dzqdp9mrkkd731muzai8ax6s?si=254bb581ae4a4498" target = "_blank">
                             <img class = "logo" src = "images/spotifylogobb.png"></a>
-                        <br><br><br><br>
                     </div>
+            </div><!--<hr class = "hr1">-->
+
+            <br>
+            <br>
+            <br>
+            <br>
             
             <div class = "navcontent" id = "navcontent">
                 <a href = #top class="navbuttons">home</a>
                 <a href = #album class="navbuttons">art</a>
-                <a href = #contacts class="navbuttons">contact</a>
+                <a href = #midway class="navbuttons">contact</a>
                 <button class = "button" id = "darkmode" onclick="myFunction0()">☾ ☀︎</button>
-                <br><br><br>
+                
             </div> 
         </div> 
     </nav>
     <!------------------------------------------------------------------navbar//--->
 
-   
+    <br>
+    <br>
+    <br>
 
+    <!--name and logo-->
     <header id = "header">  
         <div class="myName">
             <div class="imagetextcenter">
                 <h1 class = "name">welcome.</h1>
-                <img class = "profilepicture" id = "profilepicture" src = "images/bluewhite3.png" alt = "image"> 
-                <br><br><br>
+                <img class = "profilepicture" id = "profilepicture" src = "images/bluewhite3.png" alt = "image">
             </div>
+            <!--<div class = "parent">
+                <div class = "child">
+                <img src="./images/pfp3dblank.png" alt = "image1" style = "width:120px; height:120px; border-radius: 25%;">
+                </div>
+                <div class = "childthird">
+                    <p id = "face" style = "color:darkcyan;"><span></span></p>
+            </div> 
+            -->
+            
+            <br>
+            <br>
+            <br>
         </div>
     </header>
- 
+    <!--name and logo-->
 
 
     <!-------------------------------------------------------------------------------------------------------------------------------mainpage content\\--->
     
     <div class = "mainpage">
+
+        <!-----------table of contents-->
         <div class="tableofcontents" id = "flexboxspacing">
+            
             <div class="tree" id = "tree">
+                
                     <p id = "topictitle"><span id = "hovertopic"><b>table of contents:</b></span></p>
                     <a id = "topic" href = #top><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #about><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #projects><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #software><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;software&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
                     <a id = "topic" href = #hackathons><p id = "topictitle"><span id = "hovertopic">&nbsp;&nbsp;&nbsp;&nbsp;hackathons&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p></a>
+                    
+                
+                
             </div>
+           <!--
+            <div id ="bar">
+                
+                <p id = "scrollbar"><b>∣</b></p>
+                <br>
+                <hr id = "verticalhr">
+              
+            </div>
+             --> 
         </div>
+        <!-----------table of contents-->
+
+
+        <!-----------content information-->
         <div class="maincontent" id = "flexboxspacing">
             <div class = "about">
                 <div class = "aboutnav"> 
@@ -77,20 +126,22 @@
                                 <a class="aboutbuttons">web developer</a>
                                 <a class="aboutbuttons">nyc</a>
                                 <a class="aboutbuttons">artist</a>
-                                <br><br>
                             </div>
                         </div>
+
+                        <br>
+                        <br>
+                        
                         <div class="aboutdesc">
-                            <span>
-                                <br>
+                            <span><br>
                                 <span>
-                                    <br><p id = "para1">❱ hello, i'm an undergrad at <span class = "colorhover">CUNY Queens College</span> majoring in computer science and finance.</p>
+                                    <br><p id = "para">❱ hello, i'm an undergrad at <span class = "colorhover">CUNY Queens College</span> majoring in computer science and finance.</p>
                                 </span>
                                 <span>
-                                    <br><p id = "para1">❱ i have a background in art and like to do all of my own designs, i like challenging myself in finding new ways to stay creative and productive. </p>
+                                    <br><p id = "para">❱ i have a background in art and like to do all of my own designs, i like challenging myself in finding new ways to stay creative and productive. </p>
                                 </span>
                                 <span>
-                                    <br><p id = "para1">❱ i'm an aspiring web developer, primarily focused on frontend engineering and some notable interests in web design and ui ux design, i'm also
+                                    <br><p id = "para">❱ i'm an aspiring web developer, primarily focused on frontend engineering and some notable interests in web design and ui ux design, i'm also
                                                         open to a more broad basket of software engineering opportunities.
                                                         </p>
                                 </span>
@@ -116,18 +167,18 @@
                 <div class="aboutdesc">
                     <br>
                         <span>
-                            <p id = "para1">❱ <b>portfolio:</b> this site was coded using very basic html, css, and minimal javascript. this site employs 
+                            <p id = "para">❱ <b>portfolio:</b> this site was coded using very basic html, css, and minimal javascript. this site employs 
                                                                 very simple css techniques like flexbox for formatting purposes.</p>
                         </span>
                     <br>
                     <br>
                         <span>
-                            <p id = "para1">❱ a wip project on stock price comparison to track etfs and personal investments to display performance vs the market</p>
+                            <p id = "para">❱ a wip project on stock price comparison to track etfs and personal investments to display performance vs the market</p>
                         </span> 
                     <br>
                     <br>
                         <span>
-                            <p id = "para1">❱ a wip css based framework</p>
+                            <p id = "para">❱ a wip css based framework</p>
                         </span>
                     <br>
                 </div>
@@ -221,9 +272,27 @@
             <!-----------content information-->
             </div>
         </div>
-
         <div class="misc" id = "flexboxspacing">
-        </div>
+                <!--
+                <div id = "sideimages">
+                    <br><br><br><br><br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/grad2.png"></p>
+                    <br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/bluewhite4.png"></p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/greenmagenta.png"></p>
+                    <br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/greenyellow.png"></p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/grad1.png"></p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/greenmagenta.png"></p>
+                    <br><br><br><br>
+                    <p id = "sideimagescontainer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "images/greenyellow.png"></p>
+                </div>
+            -->
+                
+            </div>
             
         </div>
     </div>
@@ -235,7 +304,7 @@
     </div>
     <br><br><br><br><br><br><br><br><br>
    
-    <div id = "clock">
+    <div id = "midway">
         <span><h1><div id="txt"></div></h1></span>
         
         
@@ -295,27 +364,67 @@
                     <a class = "artreference" href = "https://open.spotify.com/album/6GehZ1cDeurvyt0emrC7sE?si=c98N24E3SLSqSkdJjmfvuw" target = "_blank"><p id = "para1"><b>cicada - seeking the sources of streams</b></p></a>
                  
                     <br><br><br><br><br><br><br><br><br><br>
-                   
+                    <!--
+                    <img class = "imgcard" id = "imagecard1" src = "./images/bluewhite3.png">
+
+                    <br><br><br>
+
+                    <p id = "para1">&nbsp;&nbsp;here's a picture i drew on mspaint.<br><br>
+                        &nbsp;&nbsp;&nbsp;inspired by cicada's album cover:</p>
+                     
+                    <a class = "artreference" href = "https://open.spotify.com/album/6GehZ1cDeurvyt0emrC7sE?si=c98N24E3SLSqSkdJjmfvuw" target = "_blank"><p id = "para1"><b>cicada - seeking the sources of streams</b></p></a>
+                        -->
+
                 </div>
-              
+                <!--
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <img class = "imgcard" id = "imagecard2" src = "./images/bluewhite3.png">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <img class = "imgcard" id = "imagecard3" src = "./images/greencyan.png">
+                -->
             </div>
     </div>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
    
     
     
+        
+   
+    <!--<div id="parent">
+                <div id = "child1">
+                    <img src = "images/pfp3dblank.png">
+                </div>
+                <div id = "child2">
+                    <p><span></span></p>
+                </div>
+               <br><br><br>
+               <div id = "contacts">
+                <p id = "backtotop">find this art on instagram</p>
+                </div>  
+            </div>   -->
+    <br><br><br> <br> <br>
 
+    <div id="parent">
+        <div id = "child1">
+            <img src = "images/pfp3dblank.png">
+        </div>
+        <div id = "child2">
+            <p><span></span></p>
+        </div>
+    </div> 
+       <br><br><br> <br> <br>
+       <div id = "contacts">
+        <p id = "para1">stay tuned for<br> more future projects!</p>
+        </div>  
+    </div>    
+    
+    
+        <br><br><br>
          
         <div id = "contacts">
-        <a href = #top id = "backtotop"><h4>↑<br>back to top</h4></a>
-        
-        <br><br>
-
-        <hr class = "hr0">
-        
-        <br><br>
-
+        <a href = #top id = "backtotop"><h4>↑<br>back to top</h4></a><br><br>
+        <hr class = "hr0"><br><br><br><br>
         <span>
             <button id = "utilitybutton" onClick="window.location.reload();">⟲</button>
             <button id = "utilitybutton" onclick="myFunction0();">☾ ⊹ ☀︎</button>
@@ -326,9 +435,7 @@
 <!-------------------------------------------------------------------------------------------------------------------------------secondpage content\\--->
 
 
-<div class="test" id="lol">
-
-</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -336,5 +443,3 @@
 
 </body>
 </html>
-
-
