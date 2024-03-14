@@ -6,9 +6,10 @@ function darkMode() {
   element.classList.toggle("darkmode");
   var element = document.querySelector("#about");
   element.classList.toggle("darkmodemain");
-  }
+ }
 
    
+
 
 
 
@@ -38,6 +39,7 @@ function darkMode() {
     //digital 24 hr clock
 
 
+    const d = new Date();
+    document.getElementById('dte').innerHTML =  d;
+  
 
-    
- 
