@@ -1,10 +1,20 @@
 
 
 //darkmode
-function myFunction0() {
-    var element = document.body;
-    element.classList.toggle("darkmode");
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("darkmode");
+  var element = document.querySelector("#about");
+  element.classList.toggle("darkmodemain");
   }
+
+   
+
+
+
+// document.getElementById("maincontentstyle").style.boxShadow = "0 0 80px 10px  rgb(206, 255, 251)";
+//document.getElementById("maincontentstyle").style.backgroundImage = "linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249))";
+//background-image: linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
 //darkmode
 
 
@@ -30,26 +40,4 @@ function myFunction0() {
 
 
     
- 
-  function myFunction1() {
-    var element = document.div;
-    element.classList.toggle("gradientchange");
-  }
-  
-  
-  
-  
-  function myFunction2() {
-    if (window.scrollY >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  
-  window.onscroll = function() {myFunction2()};
-  
-  var navbar = document.getElementById("tree");
-  var sticky = navbar.offsetTop;
-  
  
