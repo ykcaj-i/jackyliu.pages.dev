@@ -4,12 +4,18 @@
 function darkMode() {
   var element = document.body;
   element.classList.toggle("darkmode");
+
   var element = document.querySelector("#about");
   element.classList.toggle("darkmodemain");
+
+
+  
  }
 
    
-
+  //var element = document.querySelectorAll("#lol");
+  //this.classList.toggle("darkmodefonts");
+  
 
 
 

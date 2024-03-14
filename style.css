@@ -242,18 +242,19 @@ body{
     color:#6185BF;
     padding-left: 5px;
 }
-.aboutdesc{
-    color: #3484c5;
-}
+
 #para{
     /*border: solid 1px yellow;*/
     padding: 0 5em;
 }
-#para1{
+
+
+.para1{
     /*border: solid 1px yellow;*/
     padding: 0 5em;
     color: #3484c5;
 }
+
 #span1{
     padding: 1em;
     border-radius: 5px;
@@ -387,8 +388,6 @@ body{
     }
 }
 /*----------------------------*/
-
-
 
 
 
