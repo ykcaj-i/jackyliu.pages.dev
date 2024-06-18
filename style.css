@@ -255,6 +255,12 @@ body{
     color: #3484c5;
 }
 
+.para2{
+    /*border: solid 1px yellow;*/
+    padding: 0 5em;
+    color: #00f3e3;
+}
+
 #span1{
     padding: 1em;
     border-radius: 5px;
