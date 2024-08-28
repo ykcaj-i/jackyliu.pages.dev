@@ -84,8 +84,8 @@ body{
 .navcontent a{
     font-family:'inconsolata';
     border-radius: 5%;
-    padding: 0 20px;
-    margin: 0 20px;
+    
+   
     text-decoration: none;
     color: #00ffee;
     font-size: 110%;
@@ -97,6 +97,13 @@ body{
 .navcontent button:hover{
     color: rgb(245, 254, 255);
     background-color: rgba(32, 255, 236, 0.445);
+}
+.navbuttons{
+    padding: 0 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0 20px;
+    
 }
 /*toppage-------------------------------------------*/
 
