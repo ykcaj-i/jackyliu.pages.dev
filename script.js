@@ -34,7 +34,26 @@ function darkMode() {
     let s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+    let h1;
+    let isMidday;
+    if (h > 12){ 
+      h1 = Math.abs(12 - h);
+      h1 = ('0' + h1);
+    }
+
+    if (h > 12){
+      isMidday = "PM";
+    }
+    else { 
+      isMidday = "AM";
+    }
+   
+   
+    
+      
+   
+
+    document.getElementById('txt').innerHTML =  h1 + ":" + m + ":" + s + " " + isMidday;
     setTimeout(startTime, 1000);
   }
   
