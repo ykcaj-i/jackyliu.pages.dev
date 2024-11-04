@@ -8,8 +8,11 @@ function darkmodePFP(){
   } else {
     img.src = isLight;
   }
-}
+ 
 
+  
+}
+/*
 function textToDark(){
   const text = document.querySelector('para1');
   const textLight = document.querySelector('para1').style.color;
@@ -21,17 +24,20 @@ function textToDark(){
     text.color = textLight;
    }
 }
+   */
 
 //darkmode
 function darkMode() {
+  darkmodePFP();
+
   var element = document.body;
   element.classList.toggle("darkmode");
 
   var element = document.querySelector("#about");
   element.classList.toggle("darkmodemain");
 
-  darkmodePFP();
-  textToDark();  
+  
+
 }
   
   
@@ -62,9 +68,10 @@ function darkMode() {
     s = checkTime(s);
     let h1;
     let isMidday;
-    if (h > 12){ 
-      h1 = Math.abs(12 - h);
-      h1 = ('0' + h1);
+    if (h < 10){ //add 0 to any hour that is single digit
+      h1 = ('0' + h);
+    } else {
+      h1 = h;
     }
 
     if (h > 12){
@@ -89,8 +96,10 @@ function darkMode() {
   }
     //digital 24 hr clock
 
-
-    const d = new Date();
+/*
+    let d = new Date();
     document.getElementById('dte').innerHTML =  d;
   
 
+*/ 
+   
