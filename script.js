@@ -67,13 +67,16 @@ function darkMode() {
     m = checkTime(m);
     s = checkTime(s);
     let h1;
+    let temp;
     let isMidday;
-    if (h < 10){ //add 0 to any hour that is single digit
-      h1 = ('0' + h);
-    } else {
-      h1 = h;
-    }
 
+    if (h > 12){ //if 13:00 - 23:00
+      h1 = h - 12;
+      h1 = checkTime(h1)
+    } else {
+      h1 = checkTime(h);
+    }
+     
     if (h > 12){
       isMidday = "PM";
     }
@@ -90,7 +93,7 @@ function darkMode() {
     setTimeout(startTime, 1000);
   }
   
-  function checkTime(i) {
+  function checkTime(i) { // function to check if a number is less than 12. if > 12 than add a 0
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
   }
