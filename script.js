@@ -1,4 +1,26 @@
+function darkmodePFP(){
+  const img = document.getElementById('profilepicture');
+  const isLight = 'images/bluewhite35.png';
+  const isDark = 'images/bluewhite36.png';
 
+  if (img.src.endsWith(isLight)){ //is this true?
+   img.src = isDark;
+  } else {
+    img.src = isLight;
+  }
+}
+
+function textToDark(){
+  const text = document.querySelector('para1');
+  const textLight = document.querySelector('para1').style.color;
+  const textDark = document.querySelector('para1').style.color = "yellow";
+  
+  if (text.color){ //is this true?
+    text.color = textDark;
+   } else {
+    text.color = textLight;
+   }
+}
 
 //darkmode
 function darkMode() {
@@ -8,9 +30,13 @@ function darkMode() {
   var element = document.querySelector("#about");
   element.classList.toggle("darkmodemain");
 
-
+  darkmodePFP();
+  textToDark();  
+}
   
- }
+  
+  
+ 
 
    
   //var element = document.querySelectorAll("#lol");

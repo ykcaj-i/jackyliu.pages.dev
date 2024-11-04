@@ -125,15 +125,13 @@ body{
     padding-left: 12em;
     justify-content: center;
 }
-.profilepicture{
-    padding:1%;
-    margin: 0%;
-    width: 130px;
-    height: 130px;   
-}
 #profilepicture{
     border: solid 1px transparent;
     border-radius: 50%; 
+    padding:1%;
+    margin: 0%;
+    width: 130px;
+    height: 130px;  
 }
 @media(max-width:399px){
     .imagetextcenter{
@@ -256,13 +254,13 @@ body{
 }
 
 
-.para1{
+.para1{ /*all the texts*/
     /*border: solid 1px yellow;*/
     padding: 0 5em;
     color: #3484c5;
 }
 
-.para2{
+.para2{ /*email*/
     /*border: solid 1px yellow;*/
     padding: 0 5em;
     color: #3484c5;
