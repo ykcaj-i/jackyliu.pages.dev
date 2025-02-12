@@ -1,3 +1,10 @@
+
+$(window).on('hashchange', function(e){
+    history.replaceState ("", document.title, e.originalEvent.oldURL);
+}); // to prevent hashtags
+
+
+
 function darkmodePFP(){
   const img = document.getElementById('profilepicture');
   const isLight = 'images/bluewhite35.png';
