@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=Padauk:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
 
 html{
@@ -9,9 +8,11 @@ html{
 font-family:'inconsolata'; /*font-family:'IBM Plex Sans';*/
 }
 body{
+    transition: 1s;
     background-color: rgb(245, 254, 255);
 }
 .darkmode{
+    transition: 1s;
     background-color: #002227;
 }
 
@@ -23,9 +24,11 @@ body{
     font-family:'inconsolata';
     color: #00f3e3;
     font-size: 100%;
+    font-weight: 200;
     border-radius: 5%;
     padding: 0 20px 20px 20px;
     margin: 0 20px 20px 20px;
+    transition: .25s ease;
 }
 #utilitybutton{
     border: none;
@@ -33,8 +36,10 @@ body{
     text-decoration: none;
     color: #00ffee;
     font-size: 120%;
+    transition: .25s ease;
 }
 #utilitybutton:hover{
+    transition: .25s ease;
     color: #00f3e3;
     cursor: pointer;
 }
@@ -75,6 +80,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 /*toppage-------------------------------------------*/
 
@@ -84,7 +90,8 @@ body{
 .navcontent a{
     font-family:'inconsolata';
     border-radius: 5%;
-    
+    transition: .25s ease;
+    font-weight: 500;
    
     text-decoration: none;
     color: #00ffee;
@@ -126,6 +133,7 @@ body{
     justify-content: center;
 }
 #profilepicture{
+    transition: 1s;
     border: solid 1px transparent;
     border-radius: 50%; 
     padding:1%;
