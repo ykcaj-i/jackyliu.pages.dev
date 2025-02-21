@@ -9,7 +9,7 @@ font-family:'inconsolata'; /*font-family:'IBM Plex Sans';*/
 }
 body{
     transition: 1s;
-    background-color: rgb(245, 254, 255);
+    background-color: rgb(237, 253, 255);
 }
 .darkmode{
     transition: 1s;
