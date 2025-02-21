@@ -224,7 +224,6 @@ body{
 .maincontent{
     width: 100%;
     display: grid;
-    
 }
 .maincontentstyle{
     background-color: rgb(245, 254, 255);
@@ -232,7 +231,6 @@ body{
     border: whitesmoke;
     border-radius: 1%;
     box-shadow:  0 0 80px 10px  rgb(206, 255, 251);
-    transition: 1s;
 }
 .darkmodemain{
     background-color: #002227;
@@ -240,7 +238,7 @@ body{
     border-radius: 1%;
     border-radius: 1%;
     box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
-    transition: 1s;
+ 
 }
 .aboutcontent{
     padding: 0 5em;
