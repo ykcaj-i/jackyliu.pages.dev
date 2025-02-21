@@ -28,7 +28,7 @@ body{
     border-radius: 5%;
     padding: 0 20px 20px 20px;
     margin: 0 20px 20px 20px;
-    transition: .25s ease;
+    transition: .5s ease;
 }
 #utilitybutton{
     border: none;
@@ -232,6 +232,7 @@ body{
     border: whitesmoke;
     border-radius: 1%;
     box-shadow:  0 0 80px 10px  rgb(206, 255, 251);
+    transition: 1s;
 }
 .darkmodemain{
     background-color: #002227;
@@ -239,6 +240,7 @@ body{
     border-radius: 1%;
     border-radius: 1%;
     box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
+    transition: 1s;
 }
 .aboutcontent{
     padding: 0 5em;
