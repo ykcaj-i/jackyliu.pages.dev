@@ -189,7 +189,7 @@ body{
 #topic #hovertopic:hover{
     color: rgb(0, 255, 238);
     color: #09c7ba;
-    background-color: rgba(214, 253, 250, 0.881);
+    background-color: rgba(214, 253, 250, 0.237);
     border-radius: 25px;
     transition: .75s;
 }
