@@ -359,7 +359,7 @@ body{
     font-size: 150%;
 }
 #backtotop{
-    color: #00f3e3;
+    color: #3484c5;
     text-decoration: none;
 }
 
@@ -409,16 +409,26 @@ body{
         border: solid 15px black;
     }
 }
+.place{
+    color: #00f3e3;
+}
 /*----------------------------*/
 
 
+/*--------links----------*/
 
-
-
-
-
-
-
+.myEmail:visited{
+    background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
+    color: transparent;
+    background-clip: text;
+    text-decoration: none;
+}
+.myEmail:link{
+    background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
+    color: transparent;
+    background-clip: text;
+    text-decoration: none;
+}
 
 
 
