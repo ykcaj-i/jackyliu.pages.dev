@@ -174,7 +174,7 @@ body{
     justify-content: space-around;
 }
 .tree{
-    color: #6185BF;
+    color: #3484c5;
     text-align: left;
     padding-left: 20em;
     position: fixed;
@@ -183,7 +183,7 @@ body{
 }
 #topic{
     text-decoration: none;
-    color: #6185BF;
+    color: #3484c5;
     padding: 10px;
 }
 #topictitle{
