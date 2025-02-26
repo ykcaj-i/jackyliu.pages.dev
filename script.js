@@ -4,11 +4,10 @@ $(window).on('hashchange', function(e){
 }); // to prevent hashtags
 
 
+   
 
 
-
-
-function darkmodePFP(){
+function darkModePFP(){
   const img = document.getElementById('profilepicture');
   const isLight = 'images/bluewhite35.png';
   const isDark = 'images/bluewhite36.png';
@@ -20,7 +19,6 @@ function darkmodePFP(){
   }
  
 
-  
 }
 /*
 function textToDark(){
@@ -38,7 +36,7 @@ function textToDark(){
 
 //darkmode
 function darkMode() {
-  darkmodePFP();
+  darkModePFP();
 
   var element = document.body;
   element.classList.toggle("darkmode");
@@ -115,4 +113,3 @@ function darkMode() {
   
 
 */ 
-   
