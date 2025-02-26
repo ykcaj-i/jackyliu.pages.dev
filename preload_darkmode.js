@@ -10,7 +10,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     darkModePFP();
   
     var element = document.body;
-    element.classList.toggle("darkmode");
+    element.classList.toggle("darkmodeNoTransition");
   
     var element = document.querySelector("#about");
     element.classList.toggle("darkmodemain");
