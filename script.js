@@ -1,11 +1,11 @@
-
-$(window).on('hashchange', function(e){
-    history.replaceState ("", document.title, e.originalEvent.oldURL);
-}); // to prevent hashtags
-
-
+/** 
+document.getElementById('preventAnchor').addEventListener('click', function(e){
+  e.preventDefault();
+  var anchor = this.href.split('#')[1];
+  document.body.scrollTop = document.getElementById(anchor).offsetTop; // Comment me out if you don't want scroll to occur
+})
    
-
+*/
 
 function darkModePFP(){
   const img = document.getElementById('profilepicture');
