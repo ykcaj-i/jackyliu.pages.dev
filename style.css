@@ -11,6 +11,13 @@ body{
     transition: 1s;
     background-color: rgb(243, 253, 255);
 }
+
+@media (prefers-color-scheme: dark) {
+    .darkmode.adaptive {
+        transition: 1s;
+        background-color: #002227;
+    }
+  }
 .darkmode{
     transition: 1s;
     background-color: #002227;

@@ -5,6 +5,9 @@ $(window).on('hashchange', function(e){
 
 
 
+
+
+
 function darkmodePFP(){
   const img = document.getElementById('profilepicture');
   const isLight = 'images/bluewhite35.png';
