@@ -89,6 +89,10 @@ body{
 
 
 /*toppage-------------------------------------------*/
+.navcontent{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .navcontent a{
     font-family:'inconsolata';
     border-radius: 25px;
@@ -171,6 +175,12 @@ body{
     }
     .mainpage{
         display: block;
+    }
+    .misc{
+        display: none;
+    }
+    .pfp{
+        display: none;
     }
 }
 /*tableofcontents----------------------------------------------*/
