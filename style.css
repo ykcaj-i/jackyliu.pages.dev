@@ -91,7 +91,7 @@ body{
 /*toppage-------------------------------------------*/
 .navcontent{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .navcontent a{
     font-family:'inconsolata';
