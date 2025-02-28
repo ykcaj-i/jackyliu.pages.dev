@@ -165,7 +165,7 @@ body{
     width: 100%; 
 }
 
-@media (max-width: 1500px){ /*IMPORTANT - hides the table of contents when on mobile*/
+@media (max-width: 1500px){ 
     .tableofcontents > #tree {
         display: none;
     }
