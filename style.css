@@ -330,6 +330,7 @@ body{
 }
 @media (max-width:330px){
     .misc{  
+        display: none;
     }
 }
 /*sidecontent---------------------------------*/
