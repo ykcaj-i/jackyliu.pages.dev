@@ -162,19 +162,20 @@ body{
 /*mainpage------------------------------------------------------*/
 .mainpage{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     position: relative;
 }
 #flexboxspacing{
     width: 100%; 
 }
 
-@media (max-width: 1500px){ 
+@media (max-width: 800px){ 
     .tableofcontents > #tree {
         display: none;
     }
     .mainpage{
         display: block;
+        text-align: center;
     }
     .misc{
         display: none;
@@ -272,6 +273,7 @@ body{
     background-color: #6185BF;
     text-decoration: none;
     color: #00ffee;
+    border-radius: 2px;
 }
 #abouttitles{
     color:#6185BF;
