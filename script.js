@@ -86,10 +86,10 @@ function darkMode() {
     }
      
     if (h > 12){
-      isMidday = "PM";
+      isMidday = "AM";
     }
     else { 
-      isMidday = "AM";
+      isMidday = "PM";
     }
    
    
