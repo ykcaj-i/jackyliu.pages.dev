@@ -86,20 +86,20 @@ body{
 
 /*name----------------------------------------------*/
 .myName{
-    padding-right: 12.5em;
-    text-align: center;
+  
 }
 .name{
+    text-align: left;
     font-family:'IBM Plex Sans';
     font-weight: 500;
-    font-size:335%;
+    font-size:300%;
     color: #00ffee;
-    padding: 35px;
+    padding: 35px 35px 35px 35px ;
     margin: 15px;
+
 }
 .imagetextcenter{
     display: flex;
-    padding-left: 12em;
     justify-content: center;
 }
 #profilepicture{
