@@ -126,3 +126,16 @@ function copyLink() {
   navigator.clipboard.writeText(copyText.value);
 
 }
+
+
+/*
+
+function handleShortcut(event) {
+  if (event.key === "home") {
+      event.preventDefault();
+      // Your action to perform when the key is pressed
+  }
+}
+document.addEventListener("keydown", handleShortcut);
+
+*/
