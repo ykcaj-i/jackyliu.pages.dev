@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacky Liu</title>
     <link rel="icon" type="image/x-icon" href="images/favicon1.ico">
     <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "fonts.css">
     <script defer src = "preload_darkmode.js"></script>
     <script src = "script.js"></script>
 </head>
 <body onload="startTime()">
 
-   <!------------------------------------------------------------------navbar//--->
-    <nav  id = "nav">
-        <div class = "nav"> 
-                    <br><br>
-                    <div id = "logoposition">&nbsp;
-                        <a href = "https://github.com/ykcaj-i" target = "_blank">
-                            <img class = "logo" src = "images/githubcyanbb.png"></a>
-                        <a href = "https://linkedin.com/in/jacky-l-170103164/" target = "_blank">
-                            <img class = "logo" src = "images/linkedincyanbb.png"></a>
-                        <a href = "https://devpost.com/ykcaj-i" target = "_blank">
-                            <img class = "logo" src = "images/devpostlogobb.png"></a>
-                        <a href = "https://open.spotify.com/user/4dzqdp9mrkkd731muzai8ax6s?si=254bb581ae4a4498" target = "_blank">
-                            <img class = "logo" src = "images/spotifylogobb.png"></a>
-                        <br><br><br><br>
-                    </div>
-            
-            <div class = "navcontent" id = "navcontent">
-                <a href = #top class="navbuttons">home</a>
-                <a href = #contacts class="navbuttons">contact</a>
-                <a href = #album class="navbuttons">connect</a>
-                <button class = "button navbuttons" id = "darkmode" onclick="darkMode()">☾&nbsp;✹</button>
-            </div> 
-        </div> 
-    </nav>
-    <!------------------------------------------------------------------navbar//--->
+   <!------------------------------------------------------------------NAVBAR-->
+   <nav class = "navbar"><br><br>
+        <div class = "link"> <!--links-->
+            <a class = "linkItems" href = "https://github.com/ykcaj-i" target = "_blank"><img class = "socialsMediaIcon" src = "images/githubcyanbb.png"></a>           
+            <a class = "linkItems" href = "https://linkedin.com/in/jacky-l-170103164/" target = "_blank"><img class = "socialsMediaIcon" src = "images/linkedincyanbb.png"></a>
+            <a class = "linkItems" href = "https://devpost.com/ykcaj-i" target = "_blank"><img class = "socialsMediaIcon" src = "images/devpostlogobb.png"></a>
+            <a class = "linkItems" href = "https://open.spotify.com/user/4dzqdp9mrkkd731muzai8ax6s?si=254bb581ae4a4498" target = "_blank"><img class = "socialsMediaIcon" src = "images/spotifylogobb.png"></a>
+        </div> <!--links-->   
+    
+        <br><br><br>
+                           
+        <div class = "navButton"> <!--navButton-->      
+            <span>
+                <a href = #top class="navButtonElement"><span class = "navButtonElementSpan">&nbsp;webdev&nbsp;</span></a>
+                <a href = #contacts class="navButtonElement"><span class = "navButtonElementSpan">&nbsp;contact&nbsp;</span></a>
+                <a href = #album class="navButtonElement"><span class = "navButtonElementSpan">&nbsp;connect&nbsp;</span></a>
+               <button class = "navButtonElement darkModeButton" onclick="darkMode()"><div class = "emoji">🌙</div></button>
+               </span>
+        </div> <!--navbarButton-->
+
+    </nav> 
+    <!------------------------------------------------------------------NAVBAR-->
 
     <br><br>
-
+    <!------------------------------------------------------------------HEADER-->
     <header id = "header">  
         <div class="myName">
             <div class="imagetextcenter">
@@ -49,7 +46,7 @@
             </div>
         </div>
     </header>
- 
+    <!------------------------------------------------------------------HEADER-->
 
     <br><br>
 
@@ -74,7 +71,7 @@
                             <div id = "span1">
                                 <a class="aboutbuttons">web developer</a>
                                 <a class="aboutbuttons">web designer</a>
-                                <a class="aboutbuttons">comp sci major</a>
+                                <a class="aboutbuttons">cs student</a>
                                 <a class="aboutbuttons">nyc</a>
                                 <br>
                             </div>
@@ -120,7 +117,7 @@
                     <br>
                     <br>
                         <span>
-                            <p class = "para1">❱ <b>urlfolio: </b>a next.js react app running on a mySQL database, storing user saved urls, giving them the ability to categorize the link and efficiently deploy them from any pc device.</p>
+                            <p class = "para1">❱ <b>urlfolio: </b>a react app running on a Supabase's postgreSQL database, storing URLs and allowing for easy and simple, as well as quick deployment to a wide range of browsers without need to import bookmark information.</p>
                         </span> 
                     <br>
                     <br>
@@ -249,10 +246,10 @@
             <div class = "imagecontent">
                 <br><br><br><br>
                 <div class = "parentcontainer" id = "album">
-                    <br>
+                    
                     <h1>
                         <a id = "instagramlink" href = "https://www.instagram.com/y.uka7/" target = "_blank"><img id = "instagramlogo" src = "images/instalogob.png" alt = "x">
-                            <br>@y.uka7<br></a><br><hr class = "hr0">
+                            <br>y.uka7<br></a><hr class = "hr0">
                     </h1>    
                    
                     <br><br><br><br><br>

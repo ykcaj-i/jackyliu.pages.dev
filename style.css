@@ -1,123 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=Padauk:wght@400;700&family=Smooch+Sans:wght@100..900&display=swap');
 
+/*PASSED QUALITY CHECK*/
 html{
     scroll-behavior: smooth;
 }  
+/*PASSED QUALITY CHECK*/
 *{
-font-family:'inconsolata'; /*font-family:'IBM Plex Sans';*/
+    font-family:'inconsolata'; /*font-family:'IBM Plex Sans';*/
 }
+/*PASSED QUALITY CHECK*/
 body{
     transition: 1s;
     background-color: rgb(243, 253, 255);
 }
+/*PASSED QUALITY CHECK*/
 .darkmodeNoTransition{
     background-color: #002227;
 }
+/*PASSED QUALITY CHECK*/
 .darkmode{
-    transition: 1s;
     background-color: #002227;
 }
-.button{
-    background-color: transparent;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-    font-family:'inconsolata';
-    color: #00f3e3;
-    font-size: 100%;
-    font-weight: 200;
-    border-radius: 25px;
-    padding: 0 20px 20px 20px;
-    margin: 0 20px 20px 20px;
-    transition: .5s ease;
-}
-#utilitybutton{
-    border: none;
-    background-color: transparent;
-    text-decoration: none;
-    color: #00ffee;
-    font-size: 120%;
-    transition: .25s ease;
-}
-#utilitybutton:hover{
-    transition: .25s ease;
-    color: #00f3e3;
-    cursor: pointer;
-}
-
-/*toppage-------------------------------------------*/
-.loadingbarcontainer{
-    display: flex;
-    justify-content: space-between;
-    /* border: solid 5px green;/*utility border*/
-}
-.loadingbar{
-     /*border: solid 5px yellow;/*utility border*/
-    margin-top:auto; 
-}
-.loadingbar span{
-    color: #00ffee;
-    background-color: #5278b6;
-    box-shadow:  0 2px 1px  #6185BF;
-    font-weight: 300;
-}
-.loadingbarcontainer > a, #logoposition{
-    padding: 2px;
-    text-align: center;
-}
-.logo{
-    width: 1.5em;
-    height: 1.5em;
-}
-#logoposition a:hover{
- 
-}
 .hr0{
-    border: dotted 1.5px; 
+    border: dashed 1px; 
     border-color: #00ffee; 
     width: 25%;
 }
-.navcontent{
+/***************************************ESSENTIALS********************************************/
+
+.darkModeButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px; 
+    transition: 1s !important;
+    transform: scaleX(1);
+}
+.darkModeButton:hover{
+    transform: scaleX(-1);
+    background-color: transparent !important;
+}
+.emoji{
+    color: transparent;
+    text-shadow: 0 0 0 rgba(90, 255, 247, 0.678), 0 0 10px rgba(67, 255, 246, 0.603);
+}
+
+/*toppage-------------------------------------------*/
+.link{ /*container for media links*/
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    
 }
-/*toppage-------------------------------------------*/
+.linkItems{ /*media link spacing*/
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
 
+.socialsMediaIcon{   /*media link sizes*/
+    width: 1.5em;
+    height: 1.5em;
+}
 
-
-/*toppage-------------------------------------------*/
-.navcontent{
+.navButton{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
-.navcontent a{
-    font-family:'inconsolata';
-    border-radius: 25px;
+.navButtonElement{
+ 
+    padding-left: 1.5em;
+    padding-right:  1.5em;
+    border-radius: 15px;
     transition: .25s ease;
     font-weight: 500;
-   
     text-decoration: none;
     color: #00ffee;
     font-size: 110%;
 }
-.navcontent a:hover{
-    color: rgb(245, 254, 255);
-    background-color: rgba(32, 255, 236, 0.445);
+
+.navButtonElementSpan:hover{
+    color: #07e9da;
+    background-color: rgba(179, 255, 249, 0.466);
+    border-radius: 25px;
 }
-.navcontent button:hover{
-    color: rgb(245, 254, 255);
-    background-color: rgba(32, 255, 236, 0.445);
-}
-.navbuttons{
-    padding: 0 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin: 0 20px;
-    
-}
+
+
 /*toppage-------------------------------------------*/
 
 /*name----------------------------------------------*/
@@ -139,10 +103,9 @@ body{
     justify-content: center;
 }
 #profilepicture{
-    border: solid 1px transparent;
+    border: transparent;
     border-radius: 50%; 
-    padding:1%;
-    margin: 0%;
+    margin-top: 1em;
     width: 130px;
     height: 130px;  
 }
@@ -207,7 +170,7 @@ body{
     font-size: larger;
 }
 #topic #hovertopic:hover{
-    color: rgb(0, 255, 238);
+ 
     color: #09c7ba;
     background-color: rgba(214, 253, 250, 0.237);
     border-radius: 25px;
@@ -437,7 +400,7 @@ body{
 /*----------------------------*/
 
 
-/*--------links----------*/
+
 
 .myEmail:visited{
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
