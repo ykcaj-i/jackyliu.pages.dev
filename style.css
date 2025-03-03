@@ -11,18 +11,21 @@ html{
 body{
     transition: 1s;
     background-color: rgb(243, 253, 255);
-    background-repeat: no-repeat;
-    background-image: url(./images/snowymountainsoriginal.png);
-    background-size: 100%;
-
+  
 }
 /*PASSED QUALITY CHECK*/
 .darkmodeNoTransition{
     background-color: #011d2b;
+    background-repeat: no-repeat;
+    background-image: url(./images/snowymountainsoriginal.png);
+    background-size: 100%;
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
     background-color: #011d2b;
+    background-repeat: no-repeat;
+    background-image: url(./images/snowymountainsoriginal.png);
+    background-size: 100%;
 }
 .hr0{
     border: dashed 1px; 
