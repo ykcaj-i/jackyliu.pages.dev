@@ -14,11 +14,11 @@ body{
 }
 /*PASSED QUALITY CHECK*/
 .darkmodeNoTransition{
-    background-color: #001b27;
+    background-color: #011d2b;
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
-    background-color: #001b27;
+    background-color: #011d2b;
 }
 .hr0{
     border: dashed 1px; 
@@ -218,7 +218,7 @@ body{
 }
 .darkmodemain{
     background-color: #002227;
-    background-image: linear-gradient(to bottom, #001b27, #00101a, #000b14);
+    background-image: linear-gradient(to bottom,#011d2b, #011420, #011220);
     border-radius: 1%;
     border-radius: 1%;
     box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
