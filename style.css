@@ -310,7 +310,7 @@ body{
     background-color: red;
 }
 .parentcontainer > h1{
-    color: #00f3e3;
+    color: #00ffff;
     text-align: center;
 }
 #minilogo{
@@ -322,8 +322,8 @@ body{
     text-align: center;   
 }
 #clock > span{
-    border: solid 2px #00f3e3;
-    color: #00f3e3;
+    border: solid 2px #00ffff;
+    color: #00ffff;
 }
 #txt{
     font-size: 150%;
@@ -368,10 +368,10 @@ body{
 }
 #instagramlink{
     text-decoration: none;
-    color: #00f3e3;
+    color: #00ffff;
 }
 #email{
-    color: #00f3e3;
+    color: #00ffff;
     padding: 50px;
 }
 @media (max-width: 330x){
@@ -380,7 +380,7 @@ body{
     }
 }
 .place{
-    color: #00f3e3;
+    color: #00ffff;
 }
 /*----------------------------*/
 
