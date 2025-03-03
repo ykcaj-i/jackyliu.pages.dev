@@ -14,15 +14,15 @@ body{
 }
 /*PASSED QUALITY CHECK*/
 .darkmodeNoTransition{
-    background-color: #002227;
+    background-color: #001b27;
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
-    background-color: #002227;
+    background-color: #001b27;
 }
 .hr0{
     border: dashed 1px; 
-    border-color: #00ffee; 
+    border-color: #00ffff;
     width: 25%;
 }
 /***************************************ESSENTIALS********************************************/
@@ -71,7 +71,7 @@ body{
     transition: .25s ease;
     font-weight: 500;
     text-decoration: none;
-    color: #00ffee;
+    color: #00ffff;
     font-size: 110%;
 }
 
@@ -94,7 +94,7 @@ body{
     font-family:'IBM Plex Sans';
     font-weight: 500;
     font-size:300%;
-    color: #00ffee;
+    color: #00ffff;
     padding: 35px 35px 35px 35px ;
     margin: 15px;
 
@@ -218,10 +218,10 @@ body{
 }
 .darkmodemain{
     background-color: #002227;
-    background-image: linear-gradient(to bottom, #002227, #00161a, #001114);
+    background-image: linear-gradient(to bottom, #001b27, #00101a, #000b14);
     border-radius: 1%;
     border-radius: 1%;
-    box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
+    box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
 }
 .aboutcontent{
     padding: 0 5em;
@@ -232,7 +232,7 @@ body{
     padding: 0 0 5 0px;
     background-color: #4271bd;
     text-decoration: none;
-    color: #00ffee;
+    color: #00ffff;
     border-radius: 2px;
 }
 #abouttitles{
@@ -268,7 +268,7 @@ body{
 }
 .colorhover:hover{
     background-color: #6185BF;
-    color: #00ffee;
+    color: #00ffff;
 }
 .projectdirectingbutton{
     text-decoration: none;
