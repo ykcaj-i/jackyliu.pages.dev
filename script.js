@@ -78,6 +78,8 @@ function darkMode() {
     let temp;
     let isMidday;
 
+ 
+
     if (h > 12){ //if 13:00 - 23:00
       h1 = h - 12;
       h1 = checkTime(h1)
@@ -85,7 +87,7 @@ function darkMode() {
       h1 = checkTime(h);
     }
      
-    if (h > 12){
+    if (h1 > 12){ //check back to see if working
       isMidday = "AM";
     }
     else { 

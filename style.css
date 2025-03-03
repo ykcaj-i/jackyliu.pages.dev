@@ -76,8 +76,8 @@ body{
 }
 
 .navButtonElementSpan:hover{
-    transition: 0.25s;
-    color: #ffffff;
+    transition: 0.5s;
+    color: #0e8fb3;
     background-color: rgba(98, 255, 242, 0.733);
     border-radius: 25px;
 }
@@ -222,7 +222,6 @@ body{
     border-radius: 1%;
     border-radius: 1%;
     box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
- 
 }
 .aboutcontent{
     padding: 0 5em;
@@ -231,14 +230,15 @@ body{
 }
 .aboutbuttons{
     padding: 0 0 5 0px;
-    background-color: #6185BF;
+    background-color: #4271bd;
     text-decoration: none;
     color: #00ffee;
     border-radius: 2px;
 }
 #abouttitles{
-    color:#6185BF;
+    color:#3f88c4;
     padding-left: 5px;
+    font-weight: 500;
 }
 
 #para{
@@ -249,8 +249,9 @@ body{
 
 .para1{ /*all the texts*/
     /*border: solid 1px yellow;*/
+    font-weight: 450;
     padding: 0 5em;
-    color: #3484c5;
+    color: #4ca3dd;
 }
 
 .para2{ /*email*/
