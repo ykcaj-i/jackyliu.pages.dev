@@ -18,14 +18,16 @@ body{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 100%, 20%;
+    background-size: 100%, 15%;
+ 
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 100%, 20%;
+    background-size: 100%, 15%;
+    
 }
 .hr0{
     border: dashed 1px; 
