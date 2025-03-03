@@ -41,11 +41,11 @@ body{
     border: none;
     cursor: pointer;
     border-radius: 25px; 
-    transition: 0.75s !important;
-    transform: scaleX(1);
+    transition: 1.5s !important;
+    /*transform: scaleX(-1);*/
 }
 .darkModeButton:hover{
-    transform: scaleX(-1);
+    transform: rotate(360deg);
     background-color: transparent !important;
 }
 .emoji{
@@ -160,7 +160,7 @@ body{
     justify-content: space-around;
 }
 .tree{
-    color: #3f88c4;
+    color: #4894db;
     text-align: left;
     padding-left: 20em;
     position: fixed;
@@ -169,7 +169,7 @@ body{
 }
 #topic{
     text-decoration: none;
-    color: #3f88c4;
+    color: #4894db;
     padding: 10px;
 }
 #topictitle{
@@ -260,13 +260,13 @@ body{
     /*border: solid 1px yellow;*/
     font-weight: 450;
     padding: 0 5em;
-    color: #4ca3dd;
+    color: #4c97dd;
 }
 
 .para2{ /*email*/
     /*border: solid 1px yellow;*/
     padding: 0 5em;
-    color: #3484c5;
+    color: #4c97dd;
 }
 
 #span1{
@@ -409,7 +409,10 @@ body{
     text-decoration: none;
 }
 
-
+.footer{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* original code */
