@@ -43,6 +43,36 @@ body{
 }
 /***************************************ESSENTIALS********************************************/
 
+.navButtonElement1{
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+.navButtonElement2{
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+.navButtonElement3{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+.darkModeButton{
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+.linkItems1{
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+}
+.linkItems2{
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+.linkItems3{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+
 .darkModeButton{
     background-color: transparent;
     border: none;
@@ -127,7 +157,8 @@ body{
     color: #4effff;
     padding: 35px 35px 35px 35px ;
     margin: 15px;
-
+    opacity: 0;
+    animation: fadeIn 3s forwards;
 }
 .imagetextcenter{
     display: flex;
@@ -441,3 +472,5 @@ body{
 @media (max-width: 330x){
    
 }
+
+
