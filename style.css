@@ -229,9 +229,9 @@ body{
     font-size: larger;
 }
 #topic #hovertopic:hover{
- 
+    font-weight: 600;
     color: #09c7ba;
-    background-color: rgba(214, 253, 250, 0.237);
+    background-color: rgba(175, 255, 248, 0.185);
     border-radius: 25px;
     transition: .75s;
 }
