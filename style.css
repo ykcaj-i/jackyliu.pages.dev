@@ -24,15 +24,16 @@ body{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 97%, 15%;
+    background-size: 98%, 15%;
     background-position: top;
+    
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 97%, 15%;
+    background-size: 98%, 15%;
     background-position: top;
     
 }
@@ -483,5 +484,4 @@ body{
 @media (max-width: 330x){
    
 }
-
 
