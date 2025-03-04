@@ -8,6 +8,7 @@ document.getElementById('preventAnchor').addEventListener('click', function(e){
 */
 
 function darkModePFP(){
+  console.log("dark mode");
   const img = document.getElementById('profilepicture');
   const isLight = 'images/bluewhite35.png';
   const isDark = 'images/bluewhite36.png';
@@ -34,38 +35,36 @@ function textToDark(){
 }
    */
 
+
 //darkmode
 function darkMode() {
+ 
+  darkModeTextChange();
   darkModePFP();
+
 
   var element = document.body;
   element.classList.toggle("darkmode");
 
   var element = document.querySelector("#about");
   element.classList.toggle("darkmodemain");
-
-  
-
 }
   
-  
+  function darkModeTextChange(){
+  let text = document.querySelector('emoji').innerHTML;
+  if(text.includes("🌙")){
+    text = "⭐"
+    document.querySelector('emoji').innerHTML = text;
+  } else {
+    text = "🌙"
+    document.querySelector('emoji').innerHTML = text;
+  }
+}
+
   
  
 
-   
-  //var element = document.querySelectorAll("#lol");
-  //this.classList.toggle("darkmodefonts");
-  
 
-
-
-// document.getElementById("maincontentstyle").style.boxShadow = "0 0 80px 10px  rgb(206, 255, 251)";
-//document.getElementById("maincontentstyle").style.backgroundImage = "linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249))";
-//background-image: linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
-//darkmode
-
-
-  
    //digital 24 hr clock
   function startTime() {
     const today = new Date();
