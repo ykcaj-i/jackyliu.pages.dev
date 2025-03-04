@@ -87,7 +87,7 @@ body{
 .navButtonElementSpan:hover{
     transition: 0.5s;
     color: #ffffff;
-    background-color: rgba(98, 255, 242, 0.733);
+    background-color: rgba(98, 255, 242, 0.486);
     border-radius: 25px;
 }
 
