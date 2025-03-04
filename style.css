@@ -456,16 +456,16 @@ body{
 
 
 .myEmail:visited{
-    font-weight: 800;
-    text-shadow: 0 0 10px rgba(161, 236, 255, 0.733);
+    font-weight: 900;
+
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
     color: transparent;
     background-clip: text;
     text-decoration: none;
 }
 .myEmail:link{
-    font-weight: 800;
-    text-shadow: 0 0 10px rgba(161, 236, 255, 0.733);
+    font-weight: 900;
+
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
     color: transparent;
     background-clip: text;
