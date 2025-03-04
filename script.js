@@ -50,16 +50,6 @@ function darkMode() {
   element.classList.toggle("darkmodemain");
 }
   
-  function darkModeTextChange(){
-  let text = document.querySelector('emoji').innerHTML;
-  if(text.includes("🌙")){
-    text = "⭐"
-    document.querySelector('emoji').innerHTML = text;
-  } else {
-    text = "🌙"
-    document.querySelector('emoji').innerHTML = text;
-  }
-}
 
   
  
