@@ -9,10 +9,10 @@ html{
 }
 /*PASSED QUALITY CHECK*/
 body{
-    background-color: rgb(243, 253, 255); 
-    transition: 1s;
     opacity: 0;
     animation: fadeIn 2s forwards;
+    background-color: rgb(243, 253, 255); 
+    transition: 1s;
 }
 @keyframes fadeIn {
     to {
