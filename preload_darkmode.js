@@ -6,13 +6,18 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
   function darkMode() {
     darkModePFP();
- 
+    
     
     var element = document.body;
     element.classList.toggle("darkmodeNoTransition");
   
     var element = document.querySelector("#about");
     element.classList.toggle("darkmodemain");   
+/*
+    let home = document.getElementById('home');
+    home.style.color = "white";
+    home.style.backgroundColor = "(0, 70, 102, 0.945)";
+    */
   }
 
 

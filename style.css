@@ -18,15 +18,16 @@ body{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 100%, 15%;
- 
+    background-size: 97%, 15%;
+    background-position: top;
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 100%, 15%;
+    background-size: 97%, 15%;
+    background-position: top;
     
 }
 .hr0{
@@ -73,12 +74,12 @@ body{
     justify-content: center;
 }
 .navButtonElement{
- 
+    
     padding-left: 1.5em;
     padding-right:  1.5em;
     border-radius: 15px;
     transition: .25s ease;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     color: #4effff;
     font-size: 110%;
@@ -91,8 +92,21 @@ body{
     border-radius: 25px;
     box-shadow: 0 0 5px rgba(98, 255, 242, 0.63);
 }
+/*
+#home{
+    color: #fdffda;
+    background-color: rgba(98, 255, 242, 0.63);
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(98, 255, 242, 0.63);
+}
 
-
+.homeDarkMode{
+    color: #95faff;
+    background-color: rgba(0, 70, 102, 0.945);
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(11, 81, 114, 0.63);
+}
+    */
 /*toppage-------------------------------------------*/
 
 /*name----------------------------------------------*/
