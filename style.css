@@ -191,6 +191,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    
 }
 #flexboxspacing{
     width: 100%; 
@@ -213,7 +214,7 @@ body{
     justify-content: space-around;
 }
 .tree{
-    color: #4894db;
+    color: #4effff;
     text-align: left;
     padding-left: 20em;
     position: fixed;
@@ -222,7 +223,7 @@ body{
 }
 #topic{
     text-decoration: none;
-    color: #4894db;
+    color: #4effff;
     padding: 10px;
 }
 #topictitle{
@@ -272,6 +273,7 @@ body{
     display: grid;
 }
 .maincontentstyle{
+
     background-color: rgb(245, 254, 255);
     background-image: linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
     border: whitesmoke;
