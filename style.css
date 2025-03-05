@@ -230,7 +230,7 @@ body{
     justify-content: space-around;
 }
 .tree{
-    color: #4894db;
+    color: #48a5db;
     text-align: left;
     padding-left: 20em;
     position: fixed;
@@ -239,7 +239,7 @@ body{
 }
 #topic{
     text-decoration: none;
-    color: #4894db;
+    color: #48a5db;
     padding: 10px;
 }
 #topictitle{
