@@ -8,19 +8,22 @@ document.getElementById('preventAnchor').addEventListener('click', function(e){
 */
 
 function darkModePFP(){
-  console.log("dark mode");
+ 
   const img = document.getElementById('profilepicture');
   const isLight = 'images/bluewhite35.png';
   const isDark = 'images/bluewhite36.png';
 
   if (img.src.endsWith(isLight)){ //is this true?
    img.src = isDark;
+   //document.querySelectorAll('name').style.backgroundImage = "url('./images/luna.jpg')";
   } else {
     img.src = isLight;
+    //document.querySelectorAll('name').style.backgroundImage = "url('./images/tidalwave2.gif')";
   }
  
 
 }
+
 /*
 function textToDark(){
   const text = document.querySelector('para1');

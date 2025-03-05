@@ -22,17 +22,23 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
 
   function darkModePFP(){
-
-
+ 
     const img = document.getElementById('profilepicture');
     const isLight = 'images/bluewhite35.png';
     const isDark = 'images/bluewhite36.png';
   
     if (img.src.endsWith(isLight)){ //is this true?
-     img.src = isDark;
-    } else {
-      img.src = isLight;
-    }
-  
+      img.src = isDark;
+      //document.querySelectorAll('name').style.backgroundImage = "url('./images/luna.jpg')";
+     } else {
+       img.src = isLight;
+       //document.querySelectorAll('name').style.backgroundImage = "url('./images/tidalwave2.gif')";
+     }
+     /** 
+    changeName();
+     function changeName(){
+
+     }
+     */
   }
 
