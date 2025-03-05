@@ -296,14 +296,17 @@ body{
     border: whitesmoke;
     border-radius: 1%;
     box-shadow:  0 0 80px 10px  rgb(206, 255, 251);
+    /*
     animation: boxGlow 5s infinite;
+    */
 }
-
+/*
 @keyframes boxGlow{
     50% {
         box-shadow:  0 0 30px 3px  rgba(63, 217, 255, 0.349);
     }
 }
+*/
 .darkmodemain{
     background-color: #002227;
     background-image: linear-gradient(to bottom,#011d2b, #011420, #011220);
