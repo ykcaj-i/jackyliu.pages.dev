@@ -123,11 +123,14 @@ body{
 }
 
 .navButtonElementSpan:hover{
+
+  
+
     transition: 0.5s;
-    color: #ffffff;
-    background-color: rgba(98, 255, 255, 0.63);
+    color: #34eff5;
+    background-color: rgba(64, 255, 245, 0.247);
     border-radius: 25px;
-    box-shadow: 0 0 5px rgba(98, 255, 255, 0.63);
+   
 }
 /*
 #home{
@@ -245,9 +248,9 @@ body{
     font-size: larger;
 }
 #topic #hovertopic:hover{
-    font-weight: 600;
-    color: #09c7ba;
-    background-color: rgba(175, 255, 248, 0.185);
+    font-weight: 500;
+    color: #34e8f5;
+    background-color: rgba(175, 243, 255, 0.185);
     border-radius: 25px;
     transition: .75s;
 }
