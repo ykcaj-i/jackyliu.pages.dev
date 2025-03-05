@@ -209,8 +209,6 @@ body{
 .mainpage{
     display: flex;
     justify-content: center;
-    position: relative;
-    
 }
 #flexboxspacing{
     width: 100%; 
@@ -280,13 +278,12 @@ body{
         padding: 0px;
         margin: 0px;
     }
-}
-@media (max-width: 330px){
     #span1{
         padding: 0px;
         margin: 0px;
     }
 }
+
 .maincontent{
     width: 100%;
     display: grid;
@@ -312,10 +309,16 @@ body{
 .darkmodemain{
     background-color: #002227;
     background-image: linear-gradient(to bottom,#011d2b, #011420, #011220);
-    border-radius: 1%;
-    border-radius: 1%;
+    border-radius: 25px;
     box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
+    /*animation: glowAnimate 5s infinite;*/
 }
+/*
+@keyframes glowAnimate {
+    33%{
+        box-shadow: 0 0 20px 5px  rgb(7, 116, 131);
+    }
+}*/
 .aboutcontent{
     padding: 0 5em;
     margin-top: 5em;
