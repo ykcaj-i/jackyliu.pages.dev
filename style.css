@@ -154,8 +154,8 @@ body{
 
 .name{
     padding: 35px 35px 35px 35px ;
-    margin: 15px;
-    text-align: left;
+    margin: 0.25em;
+  
     font-family:'IBM Plex Sans';
     font-weight: 500;
     font-size:300%;
