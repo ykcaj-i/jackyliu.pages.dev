@@ -402,13 +402,7 @@ body{
     width: auto;
     height: auto;
 }
-.artreference{
-    text-decoration: none;
-    text-align: center;
-}
-.artreference a:hover{
-    background-color: red;
-}
+
 .parentcontainer > h1{
     color: #4effff;
     text-align: center;
