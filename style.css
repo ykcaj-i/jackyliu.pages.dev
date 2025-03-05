@@ -349,13 +349,14 @@ body{
 
 .para2{ /*email*/
     /*border: solid 1px yellow;*/
-    padding: 0 5em;
+   text-align: center;
     color: #4c97dd;
 }
 .para2-5{ /*email*/
     /*border: solid 1px yellow;*/
     color: #4c97dd;
     text-decoration: none;
+    text-align: center;
 }
 #span1{
     padding: 1em;
