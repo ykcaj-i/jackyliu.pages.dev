@@ -79,7 +79,7 @@ function darkMode() {
       h1 = checkTime(h);
     }
      
-    if (h1 > 12){ //check back to see if working
+    if (h < 12){ //check back to see if working
       isMidday = "AM";
     }
     else { 
