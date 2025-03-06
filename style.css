@@ -221,15 +221,29 @@ body{
     width: 100%; 
 }
 
-@media (max-width: 800px){ 
+@media (max-width: 1200px){ 
     .tableofcontents > #tree {
         display: none;
     }
     .mainpage{
+        
         display: block;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .pfp{
         display: none;
+    }
+}
+@media (max-width: 399px){ 
+
+    .mainpage{
+        
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 /*tableofcontents----------------------------------------------*/
