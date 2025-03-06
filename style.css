@@ -8,6 +8,7 @@ html{
 }  
 /*PASSED QUALITY CHECK*/
 *{
+    
     font-family:'inconsolata'; /*font-family:'IBM Plex Sans';*/
 }
 /*PASSED QUALITY CHECK*/
@@ -16,6 +17,12 @@ body{
     animation: fadeIn 2s forwards;
     background-color: rgb(243, 253, 255); 
     transition: 1s;
+    /*
+    background-repeat: no-repeat;
+    background-image: url(./images/ai3.gif);
+    background-size: 60%;
+    background-position: center;
+    */
 }
 @keyframes fadeIn {
     to {
@@ -26,18 +33,18 @@ body{
 .darkmodeNoTransition{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
-    background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 100%, 15%;
-    background-position: top;
+    background-image: url(./images/snowymountainsoriginal.png);
+    background-size: 100%;
+ 
     
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
-    background-image: url(./images/snowymountainsoriginal.png), url();
-    background-size: 100%, 15%;
-    background-position: top;
+    background-image: url(./images/snowymountainsoriginal.png);
+    background-size: 100%;
+
     
 }
 .hr0{
@@ -182,7 +189,7 @@ body{
     align-self: center;
     width: 50px;
     height: 50px;  
-    opacity: 0.65;
+    opacity: 0.85;
     /*box-shadow: 0px 2px 25px rgba(32, 158, 180, 0.062);*/
 }
 /*
@@ -231,7 +238,7 @@ body{
     justify-content: space-around;
 }
 .tree{
-    color: #48a5db;
+    color: #34a1e0;
     text-align: left;
     padding-left: 20em;
     position: fixed;
@@ -240,7 +247,7 @@ body{
 }
 #topic{
     text-decoration: none;
-    color: #48a5db;
+    color: #34a1e0;
     padding: 10px;
 }
 #topictitle{
