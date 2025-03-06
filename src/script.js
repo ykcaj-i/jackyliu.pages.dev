@@ -42,7 +42,7 @@ function textToDark(){
 //darkmode
 function darkMode() {
  
-  darkModeTextChange();
+  //darkModeTextChange();
   darkModePFP();
 
 
