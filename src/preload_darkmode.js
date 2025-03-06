@@ -24,8 +24,8 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   function darkModePFP(){
  
     const img = document.getElementById('profilepicture');
-    const isLight = 'images/bluewhite35.png';
-    const isDark = 'images/bluewhite36.png';
+    const isLight = './src/styles/images/bluewhite35.png';
+    const isDark = './src/styles/images/bluewhite36.png';
   
     if (img.src.endsWith(isLight)){ //is this true?
       img.src = isDark;
