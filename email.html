@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <link rel="icon" type="image/x-icon" href="images/favicon1.ico">
+    <link rel="icon" type="image/x-icon" href="/src/styles/images/favicon1.ico">
 
     <title>Jacky Liu</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css">
-    <script src = "script.js"></script>
+    <link rel = "stylesheet" href = "/src/styles/style.css">
+    <link rel = "stylesheet" href = "/src/styles/fonts.css">
+    <link rel = "stylesheet" href = "/src/styles/stars.css">
+    <script src = "/src/script.js"></script>
 </head>
-<body>
-    <div id = "email" style = "text-align: center;">
+<body style = "background-color: #011d2b; font-family: 'Inconsolata';">
+    <div class="bg-animation">
+        <div id="stars"></div>
+    </div>
+    <div id = "email" style = "text-align: left;">
         <h1>send a message</h1>
         <br><br>
         <form action="mailto:jliufend@gmail.com" method="post" enctype="text/plain">
@@ -23,6 +28,7 @@
         <input type="submit" value="Send" style = "text-decoration: none;">
       
         </form>
+       
     </div>
     
 </body>

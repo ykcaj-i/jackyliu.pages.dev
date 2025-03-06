@@ -10,8 +10,8 @@ document.getElementById('preventAnchor').addEventListener('click', function(e){
 function darkModePFP(){
  
   const img = document.getElementById('profilepicture');
-  const isLight = './src/styles/images/bluewhite35.png';
-  const isDark = './src/styles/images/bluewhite36.png';
+  const isLight = '/src/styles/images/bluewhite35.png';
+  const isDark = '/src/styles/images/bluewhite36.png';
 
   if (img.src.endsWith(isLight)){ //is this true?
    img.src = isDark;
