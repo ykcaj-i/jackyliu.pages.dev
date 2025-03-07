@@ -67,7 +67,7 @@ function darkMode() {
     m = checkTime(m);
     s = checkTime(s);
     let h1;
-    let temp;
+    let mind;
     let isMidday;
 
  
@@ -80,18 +80,23 @@ function darkMode() {
     }
      
     if (h < 12){ //check back to see if working
-      isMidday = "AM";
+      isMidday = "AM ";
     }
     else { 
       isMidday = "PM";
     }
-   
+   if (7 < h < 22){
+      mind = "🦚"; //awake
+   }
+   else {
+      mind = "🛏️";
+   }
    
     
       
    
 
-    document.getElementById('txt').innerHTML =  h1 + ":" + m + ":" + s + " " + isMidday;
+    document.getElementById('txt').innerHTML =  h1 + ":" + m + ":" + s + " " + isMidday + " " + mind;
     setTimeout(startTime, 1000);
   }
   
