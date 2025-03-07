@@ -35,7 +35,18 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-image: url(/src/styles/images/snowymountainsoriginal.png);
     background-size: 100%;
- 
+    
+    .name{
+        color: #4effff;
+        text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
+        background-image: url(/src/styles/images/wavesaturated.gif);
+        background-size: 180%; 
+        background-position: 70%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
     
 }
 /*PASSED QUALITY CHECK*/
@@ -45,6 +56,16 @@ body{
     background-image: url(/src/styles/images/snowymountainsoriginal.png);
     background-size: 100%;
 
+    .name{
+        color: #4effff;
+        text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
+        background-image: url(/src/styles/images/wavesaturated.gif);
+        background-size: 180%; 
+        background-position: 70%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     
 }
 .hr0{
@@ -175,7 +196,6 @@ body{
 .name{
     padding: 35px 35px 35px 35px ;
     margin: 0.25em;
-
     font-family:'IBM Plex Sans';
     font-weight: 500;
     font-size:300%;
