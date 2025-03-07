@@ -85,7 +85,7 @@ function darkMode() {
     else { 
       isMidday = "PM";
     }
-   if (7 < h < 22){
+   if ((7 < h) && (h < 22)){
       mind = "🦚"; //awake
    }
    else {
@@ -95,8 +95,9 @@ function darkMode() {
     
       
    
-
-    document.getElementById('txt').innerHTML =  h1 + ":" + m + ":" + s + " " + isMidday + " " + mind;
+    
+    document.getElementById('txt').innerHTML =  h1 + ":" + m + ":" + s + " " + isMidday;
+    document.getElementById('mind').innerHTML = mind;
     setTimeout(startTime, 1000);
   }
   
