@@ -451,7 +451,6 @@ body{
     text-align: center;   
 }
 #clock > span{
-    border: solid 2px #4effff;
     color: #4effff;
 }
 #txt{
@@ -518,7 +517,7 @@ body{
 
 .myEmail:visited{
     font-weight: 900;
-
+    font-size: 110%;
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
     color: transparent;
     background-clip: text;
@@ -526,7 +525,7 @@ body{
 }
 .myEmail:link{
     font-weight: 900;
-
+    font-size: 110%;
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
     color: transparent;
     background-clip: text;
