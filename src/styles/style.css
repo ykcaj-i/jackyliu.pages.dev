@@ -1,7 +1,6 @@
 @media(max-width: 365px){ /*24*/
    
 }
-
 /*PASSED QUALITY CHECK*/
 html{
     scroll-behavior: smooth;
@@ -64,11 +63,11 @@ body{
     }
 
     .tree{
-        color:rgb(44, 148, 167);
+        color:rgb(22, 127, 153);
     }
 
     #topic{
-        color:rgb(44, 148, 167);
+        color:rgb(22, 127, 153);
     }
 
     .darkmodemain{
@@ -78,6 +77,15 @@ body{
     .projectdirectingbutton{
         color: rgb(36, 130, 146);
     }
+    .para2{color:rgb(22, 144, 175);}
+    #contacts{color:rgb(22, 144, 175);}
+    #backtotop{
+        color:rgb(22, 144, 175);
+    }
+    .para2-5{
+        color:rgb(22, 144, 175);
+    }
+
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{ /*BACKUP*/
