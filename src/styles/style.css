@@ -1,5 +1,4 @@
-@media(max-width: 365px){}
-   
+
 
 *{font-family:'inconsolata';}
 html{ scroll-behavior: smooth;} 
@@ -513,3 +512,12 @@ body{
     font-size: 130%;
     text-shadow: 0 0 1px rgb(0, 255, 221);
 }
+
+@media(max-width: 470px){
+    .navButton{
+        a{
+            font-size: 70%;
+        }
+    }
+}
+   
