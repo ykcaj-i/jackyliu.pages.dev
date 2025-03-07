@@ -64,15 +64,15 @@ body{
     }
 
     .tree{
-        color:rgb(36, 120, 146);
+        color:rgb(44, 148, 167);
     }
 
     #topic{
-        color:rgb(36, 120, 146);
+        color:rgb(44, 148, 167);
     }
 
     .darkmodemain{
-        box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
+        box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
     }    
 
     .projectdirectingbutton{
@@ -114,11 +114,11 @@ body{
     }
 
     .tree{
-        color:rgb(36, 130, 146);
+        color:rgb(44, 148, 167);
     }
 
     #topic{
-        color:rgb(36, 130, 146);
+        color:rgb(44, 148, 167);
     }
 
     .darkmodemain{
