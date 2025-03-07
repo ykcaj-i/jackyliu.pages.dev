@@ -98,7 +98,7 @@ body{
     }
     
     .para1{
-        color:rgb(14, 149, 173);
+        color:rgb(36, 130, 146);
     }
 
     #span1{
@@ -111,6 +111,22 @@ body{
 
     #abouttitles{
         color:rgb(14, 149, 173);
+    }
+
+    .tree{
+        color:rgb(36, 130, 146);
+    }
+
+    #topic{
+        color:rgb(36, 130, 146);
+    }
+
+    .darkmodemain{
+        box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
+    }    
+
+    .projectdirectingbutton{
+        color: rgb(36, 130, 146);
     }
 }
 .hr0{
