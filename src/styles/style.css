@@ -509,3 +509,7 @@ body{
     }
 }
  
+#mind{
+    font-size: 150%;
+    text-shadow: 0 0 1px rgb(0, 255, 221);
+}
