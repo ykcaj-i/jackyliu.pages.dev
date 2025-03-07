@@ -1,16 +1,8 @@
-@media(max-width: 365px){ /*24*/
+@media(max-width: 365px){}
    
-}
-/*PASSED QUALITY CHECK*/
-html{
-    scroll-behavior: smooth;
-}  
-/*PASSED QUALITY CHECK*/
-*{
-    
-    font-family:'inconsolata'; /*font-family:'IBM Plex Sans';*/
-}
-/*PASSED QUALITY CHECK*/
+
+*{font-family:'inconsolata';}
+html{ scroll-behavior: smooth;} 
 body{
     opacity: 0;
     animation: fadeIn 2s forwards;
@@ -23,18 +15,14 @@ body{
     background-position: center;
     */
 }
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-/*PASSED QUALITY CHECK*/
+@keyframes fadeIn {to {opacity: 1;}}
+.hr0{border: dashed 1px; border-color: #4effff; width: 25%;}
+
 .darkmodeNoTransition{
     background-color: #011d2b;
     background-repeat: no-repeat, no-repeat;
     background-image: url(/src/styles/images/snowymountainsoriginal.png);
     background-size: 100%;
-    
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
@@ -45,47 +33,18 @@ body{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
-    .para1{
-        color:rgb(46, 146, 177);
-    }
-
-    #span1{
-        border: solid 1px rgb(9, 96, 117);
-    }
-
-    .aboutbuttons{
-        background-color: rgb(4, 54, 66);
-    }
-
-    #abouttitles{
-        color:rgb(14, 149, 173);
-    }
-
-    .tree{
-        color:rgb(22, 127, 153);
-    }
-
-    #topic{
-        color:rgb(22, 127, 153);
-    }
-
-    .darkmodemain{
-        box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
-    }    
-
-    .projectdirectingbutton{
-        color: rgb(36, 130, 146);
-    }
-    .para2{color:rgb(22, 144, 175);}
-    #contacts{color:rgb(22, 144, 175);}
-    #backtotop{
-        color:rgb(22, 144, 175);
-    }
-    .para2-5{
-        color:rgb(22, 144, 175);
-    }
-
+    .para1{ color:rgb(46, 146, 177);}
+    #span1{ border: solid 1px rgb(9, 96, 117);}
+    .aboutbuttons{ background-color: rgb(4, 54, 66);}
+    #abouttitles{ color:rgb(14, 149, 173);}
+    .tree{ color:rgb(22, 127, 153);}
+    #topic{ color:rgb(22, 127, 153);}
+    .darkmodemain{ box-shadow: 0 0 20px 5px  rgb(3, 58, 83);}    
+    .projectdirectingbutton{ color: rgb(36, 130, 146);}
+    .para2{ color:rgb(22, 144, 175);}
+    #contacts{ color:rgb(22, 144, 175);}
+    #backtotop{ color:rgb(22, 144, 175);}
+    .para2-5{ color:rgb(22, 144, 175);}
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{ /*BACKUP*/
@@ -93,7 +52,6 @@ body{
     background-repeat: no-repeat, no-repeat;
     background-image: url(/src/styles/images/snowymountainsoriginal.png);
     background-size: 100%;
-
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
@@ -104,77 +62,29 @@ body{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
-    .para1{
-        color:rgb(36, 130, 146);
-    }
-
-    #span1{
-        border: solid 1px rgb(9, 96, 117);
-    }
-
-    .aboutbuttons{
-        background-color: rgb(4, 54, 66);
-    }
-
-    #abouttitles{
-        color:rgb(14, 149, 173);
-    }
-
-    .tree{
-        color:rgb(44, 148, 167);
-    }
-
-    #topic{
-        color:rgb(44, 148, 167);
-    }
-
-    .darkmodemain{
-        box-shadow: 0 0 20px 5px  rgb(3, 71, 83);
-    }    
-
-    .projectdirectingbutton{
-        color: rgb(36, 130, 146);
-    }
+    .para1{ color:rgb(46, 146, 177);}
+    #span1{ border: solid 1px rgb(9, 96, 117);}
+    .aboutbuttons{ background-color: rgb(4, 54, 66);}
+    #abouttitles{ color:rgb(14, 149, 173);}
+    .tree{ color:rgb(22, 127, 153);}
+    #topic{ color:rgb(22, 127, 153);}
+    .darkmodemain{ box-shadow: 0 0 20px 5px  rgb(3, 58, 83);}    
+    .projectdirectingbutton{ color: rgb(36, 130, 146);}
+    .para2{ color:rgb(22, 144, 175);}
+    #contacts{ color:rgb(22, 144, 175);}
+    #backtotop{ color:rgb(22, 144, 175);}
+    .para2-5{ color:rgb(22, 144, 175);}
 }
-.hr0{
-    border: dashed 1px; 
-    border-color: #4effff;
-    width: 25%;
-}
+
 /***************************************ESSENTIALS********************************************/
 
-.navButtonElement1{
-    
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-.navButtonElement2{
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-}
-.navButtonElement3{
-    opacity: 0;
-    animation: fadeIn 3s forwards;
-}
-.darkModeButton{
-    opacity: 0;
-    animation: fadeIn 4s forwards;
-}
-.linkItems1{
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-}
-.linkItems2{
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-}
-.linkItems3{
-    opacity: 0;
-    animation: fadeIn 3s forwards;
-}
-
-
+.navButtonElement1{ opacity: 0; animation: fadeIn 1s forwards;}
+.navButtonElement2{ opacity: 0; animation: fadeIn 2s forwards;}
+.navButtonElement3{ opacity: 0; animation: fadeIn 3s forwards;}
+.darkModeButton{ opacity: 0; animation: fadeIn 4s forwards;}
+.linkItems1{ opacity: 0; animation: fadeIn 1s forwards;}
+.linkItems2{ opacity: 0; animation: fadeIn 2s forwards;}
+.linkItems3{ opacity: 0; animation: fadeIn 3s forwards;}
 .darkModeButton{
     background-color: transparent;
     border: none;
@@ -183,36 +93,18 @@ body{
     transition: 1.5s !important;
     /*transform: scaleX(-1);*/
 }
-.darkModeButton:hover{
-    transform: rotate(360deg);
-    background-color: transparent !important;
-}
-.emoji{
-    color: transparent;
-    text-shadow: 0 0 0 rgba(90, 255, 247, 0.911);
-}
+.darkModeButton:hover{transform: rotate(360deg); background-color: transparent !important;}
+.emoji{color: transparent; text-shadow: 0 0 0 rgba(90, 255, 247, 0.911);}
+    
+    
+
 
 /*toppage-------------------------------------------*/
-.link{ /*container for media links*/
-    display: flex;
-    justify-content: center;
-}
-.linkItems{ /*media link spacing*/
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
-
-.socialsMediaIcon{   /*media link sizes*/
-    width: 1.5em;
-    height: 1.5em;
-}
-
-.navButton{
-    display: flex;
-    justify-content: center;
-}
+.link{display: flex; justify-content: center;} /*container for media links*/
+.linkItems{ padding-left: 0.5em; padding-right: 0.5em;} /*media link spacing*/
+.socialsMediaIcon{ width: 1.5em; height: 1.5em;}   /*media link sizes*/ 
+.navButton{ display: flex; justify-content: center;}
 .navButtonElement{
-    
     padding-left: 1.5em;
     padding-right:  1.5em;
     border-radius: 15px;
@@ -222,46 +114,21 @@ body{
     color: #4effff;
     font-size: 110%;
 }
-
 .navButtonElementSpan1{
     color: #34eff5;
     background-color: rgba(64, 255, 245, 0.151);
     border-radius: 25px;
-    /*
-    color: transparent;
-    text-shadow: 0 0 0 rgba(90, 255, 247, 0.911);*/
 }
-
 .navButtonElementSpan:hover{
-
-  
-
     transition: 0.5s;
     color: #34eff5;
     background-color: rgba(64, 255, 245, 0.247);
     border-radius: 25px;
    
 }
-/*
-#home{
-    color: #fdffda;
-    background-color: rgba(98, 255, 242, 0.63);
-    border-radius: 25px;
-    box-shadow: 0 0 5px rgba(98, 255, 242, 0.63);
-}
-
-.homeDarkMode{
-    color: #95faff;
-    background-color: rgba(0, 70, 102, 0.945);
-    border-radius: 25px;
-    box-shadow: 0 0 5px rgba(11, 81, 114, 0.63);
-}
-    */
 /*toppage-------------------------------------------*/
 
 /*name----------------------------------------------*/
-
-
 .name{
     padding: 35px 35px 35px 35px ;
     margin: 0.25em;
