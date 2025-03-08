@@ -36,8 +36,8 @@ body{
     #span1{ border: solid 1px rgb(9, 96, 117);}
     .aboutbuttons{ background-color: rgb(4, 54, 66);}
     #abouttitles{ color:rgb(14, 149, 173);}
-    .tree{ color:rgb(22, 127, 153);}
-    #topic{ color:rgb(22, 127, 153);}
+    .tree{ color:rgb(19, 136, 165);}
+    #topic{ color:rgb(19, 136, 165);}
     .darkmodemain{ box-shadow: 0 0 20px 5px  rgb(3, 58, 83);}    
     .projectdirectingbutton{ color: rgb(36, 130, 146);}
     .para2{ color:rgb(22, 144, 175);}
@@ -91,7 +91,7 @@ body{
     /*transform: scaleX(-1);*/
 }
 .darkModeButton:hover{transform: rotate(360deg); background-color: transparent !important;}
-.emoji{color: transparent; text-shadow: 0 0 0 rgba(90, 255, 247, 0.911);}
+.emoji{color: transparent; text-shadow: 0 0 0 #52f3ff;}
     
     
 
@@ -108,11 +108,11 @@ body{
     transition: .25s ease;
     font-weight: 500;
     text-decoration: none;
-    color: #4effff;
+    color: #52f3ff;
     font-size: 110%;
 }
 .navButtonElementSpan1{
-    color: #34eff5;
+    color: #52f3ff;
     background-color: rgba(64, 255, 245, 0.151);
     border-radius: 25px;
 }
@@ -216,7 +216,7 @@ body{
     justify-content: space-around;
 }
 .tree{
-    color: #349be0;
+    color: #4c97dd;
     text-align: left;
     padding-left: 20em;
     position: fixed;
@@ -225,7 +225,7 @@ body{
 }
 #topic{
     text-decoration: none;
-    color: #349be0;
+    color: #4c97dd;
     padding: 10px;
 }
 #topictitle{
