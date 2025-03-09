@@ -78,11 +78,12 @@ body{
 .navButtonElement1{ opacity: 0; animation: fadeIn 1s forwards;}
 .navButtonElement2{ opacity: 0; animation: fadeIn 2s forwards;}
 .navButtonElement3{ opacity: 0; animation: fadeIn 3s forwards;}
-.darkModeButton{ opacity: 0; animation: fadeIn 4s forwards;}
+.darkModeButton{ opacity: 0; animation: fadeIn 4s forwards; }
 .linkItems1{ opacity: 0; animation: fadeIn 1s forwards;}
 .linkItems2{ opacity: 0; animation: fadeIn 2s forwards;}
 .linkItems3{ opacity: 0; animation: fadeIn 3s forwards;}
 .darkModeButton{
+    -webkit-tap-highlight-color: transparent;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -100,8 +101,9 @@ body{
 .link{display: flex; justify-content: center;} /*container for media links*/
 .linkItems{ padding-left: 0.5em; padding-right: 0.5em;} /*media link spacing*/
 .socialsMediaIcon{ width: 1.5em; height: 1.5em;}   /*media link sizes*/ 
-.navButton{ display: flex; justify-content: center;}
+.navButton{ display: flex; justify-content: center; -webkit-tap-highlight-color: transparent;}
 .navButtonElement{
+    -webkit-tap-highlight-color: transparent;
     padding-left: 1.5em;
     padding-right:  1.5em;
     border-radius: 15px;
@@ -216,6 +218,7 @@ body{
     justify-content: space-around;
 }
 .tree{
+    -webkit-tap-highlight-color: transparent;
     color: #4c97dd;
     text-align: left;
     padding-left: 20em;
@@ -224,6 +227,7 @@ body{
     overflow: hidden;
 }
 #topic{
+    -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     color: #4c97dd;
     padding: 10px;
@@ -411,6 +415,7 @@ body{
     font-size: 150%;
 }
 #backtotop{
+    -webkit-tap-highlight-color: transparent;
     color: #3484c5;
     text-decoration: none;
 }
