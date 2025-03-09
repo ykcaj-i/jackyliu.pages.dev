@@ -516,8 +516,12 @@ body{
 @media(max-width: 470px){
     .navButton{
         a{
-            font-size: 70%;
-        }
+            font-size: 80%;
     }
+    }
+    .darkModeButton{
+            font-size: 80%;
+        }
+    
 }
    
