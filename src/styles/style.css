@@ -118,9 +118,9 @@ body{
 .linkItems3{ opacity: 0; animation: fadeIn 3s forwards;}
 .linkItems4{ opacity: 0; animation: fadeIn 4s forwards;}
 .darkModeButton{
+    border: none;
     -webkit-tap-highlight-color: transparent;
     background-color: transparent;
-    border: none;
     cursor: pointer;
     border-radius: 25px; 
     transition: 1.5s !important;
@@ -134,8 +134,8 @@ body{
 
 /*toppage-------------------------------------------*/
 .link{display: flex; justify-content: center;} /*container for media links*/
-.linkItems{ padding-left: 0.5em; padding-right: 0.5em;} /*media link spacing*/
-.socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px; 
+.linkItems{ padding-left: 0.55em; padding-right: 0.55em;} /*media link spacing*/
+.socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px;
     transition: 2s;
     -webkit-filter: drop-shadow(5px 5px 5px #7cdaff9c);
     filter: drop-shadow(5px 5px 5px #7cdaff9c);
