@@ -278,15 +278,12 @@ body{
     display: grid;
 }
 .maincontentstyle{
-
     background-color: rgb(245, 254, 255);
     background-image: linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
     border: whitesmoke;
     border-radius: 25px;
     box-shadow:  0 0 80px 10px  rgb(206, 255, 251);
-    
     animation: boxGlow 10s infinite;
-    
 }
 
 @keyframes boxGlow{
