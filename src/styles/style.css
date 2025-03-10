@@ -116,7 +116,7 @@ body{
 
 /*toppage-------------------------------------------*/
 .link{display: flex; justify-content: center;} /*container for media links*/
-.linkItems{ padding-left: 0.6em; padding-right: 0.6em;} /*media link spacing*/
+.linkItems{ padding-left: 0.5em; padding-right: 0.5em;} /*media link spacing*/
 .socialsMediaIcon{ width: 1.5em; height: 1.5em;}   /*media link sizes*/ 
 .navButton{ display: flex; justify-content: center; -webkit-tap-highlight-color: transparent;}
 .navButtonElement{
