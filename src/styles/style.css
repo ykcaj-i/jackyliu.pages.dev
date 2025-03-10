@@ -121,7 +121,8 @@ body{
 .navButton{ display: flex; justify-content: center; -webkit-tap-highlight-color: transparent;}
 .navButtonElement{
     -webkit-tap-highlight-color: transparent;
-    padding: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
     border-radius: 15px;
     transition: .25s ease;
     font-weight: 500;
