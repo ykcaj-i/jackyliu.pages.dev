@@ -135,10 +135,10 @@
 }
 
 @keyframes animStar {
-    from {
-        transform: translateY(0px);
+    from 33% {
+        transform: translateX(0px);
     }
-    to {
-        transform: translateY(-2000px);
+    66% {
+        transform: translateX(1000px);
     }
 }
