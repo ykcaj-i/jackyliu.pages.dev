@@ -54,6 +54,13 @@ body{
         -webkit-filter: drop-shadow(5px 5px 5px transparent);
         filter: drop-shadow(5px 5px 5px transparent);
     }   /*media link sizes*/ 
+
+    .linkSpan{ border-radius: 25px;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        box-shadow: none;
+        }
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{ /*BACKUP*/
@@ -341,7 +348,7 @@ body{
     background-color: #002227;
     background-image: linear-gradient(to bottom,#011d2b, #011420, #011220);
     border-radius: 25px;
-    box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
+    box-shadow: 0 0 20px 5px  rgb(3, 47, 83);
     animation: glowAnimate 10s infinite;
 }
 
