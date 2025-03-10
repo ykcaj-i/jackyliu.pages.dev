@@ -1,3 +1,8 @@
+:root {
+    --teal: #4effff;
+    --aquamarine: #4effff;
+    --white: #ffffff;
+  }
 
 *{font-family:'inconsolata';}
 html{ scroll-behavior: smooth;} 
