@@ -48,6 +48,12 @@ body{
     #contacts{ color:rgb(22, 144, 175);}
     #backtotop{ color:rgb(22, 144, 175);}
     .para2-5{ color:rgb(22, 144, 175);}
+
+    .socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px; 
+        
+        -webkit-filter: drop-shadow(5px 5px 5px transparent);
+        filter: drop-shadow(5px 5px 5px transparent);
+    }   /*media link sizes*/ 
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{ /*BACKUP*/
@@ -86,8 +92,13 @@ body{
     justify-content: right;
 }
 .childContainer{display: grid; align-self: center;}
-/*.linkSpan{background-color: rgba(64, 255, 175, 0.151); border-radius: 10px;}*/
-.container1{padding-top: 2em; padding-bottom: 3em;}
+.linkSpan{ border-radius: 25px;
+    border-bottom: solid 1.5px rgba(56, 199, 255, 0.11);
+    border-right: solid 1.5px rgba(56, 199, 255, 0.11);
+    border-left: solid 1.5px rgba(56, 199, 255, 0.11);
+    box-shadow: 0 0 8px rgba(56, 199, 255, 0.233);
+    }
+.container1{padding-top: 3em; padding-bottom: 3em;}
 .container2{padding-bottom: 1em;}
 .container3{}
     
@@ -117,7 +128,11 @@ body{
 /*toppage-------------------------------------------*/
 .link{display: flex; justify-content: center;} /*container for media links*/
 .linkItems{ padding-left: 0.5em; padding-right: 0.5em;} /*media link spacing*/
-.socialsMediaIcon{ width: 1.5em; height: 1.5em;}   /*media link sizes*/ 
+.socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px; 
+    transition: 2s;
+    -webkit-filter: drop-shadow(5px 5px 5px #7cdaff9c);
+    filter: drop-shadow(5px 5px 5px #7cdaff9c);
+}   /*media link sizes*/ 
 .navButton{ display: flex; justify-content: center; -webkit-tap-highlight-color: transparent;}
 .navButtonElement{
     -webkit-tap-highlight-color: transparent;
@@ -184,7 +199,7 @@ body{
     align-self: center;
     width: 50px;
     height: 50px;  
-    opacity: 0.75;
+    opacity: 0.65;
   
     /*box-shadow: 0px 2px 25px rgba(32, 158, 180, 0.062);*/
 }
