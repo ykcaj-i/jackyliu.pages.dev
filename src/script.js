@@ -87,7 +87,7 @@ function darkMode() {
       isMidday = "PM";
     }
    if ((7 < h) && (h < 22)){
-      mind = "🦚"; //awake
+      mind = "😎"; //awake
    }
    else {
       mind = "🐈‍⬛"; //sleep
