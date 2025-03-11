@@ -90,7 +90,7 @@ function darkMode() {
       mind = "🦚"; //awake
    }
    else {
-      mind = "🐈‍⬛";
+      mind = "🐈‍⬛"; //sleep
    }
    
     
