@@ -11,12 +11,12 @@ body{
     animation: fadeIn 2s forwards;
     background-color: rgb(243, 253, 255); 
     transition: 1s;
-    /*
+   /*
     background-repeat: no-repeat;
-    background-image: url(./images/ai3.gif);
-    background-size: 60%;
-    background-position: center;
-    */
+    background-image: url(./images/beach.png);
+    background-size: 100%;
+    background-position: top;
+   */
 }
 @keyframes fadeIn {to {opacity: 1;}}
 .hr0{border: dashed 1px; border-color: #4effff; width: 25%;}
