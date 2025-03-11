@@ -136,7 +136,7 @@ body{
 .darkModeButton:hover{filter: hue-rotate(185deg); background-color: transparent !important;}
 .emoji{
     font-size: 90%;
-    color: transparent; text-shadow: 0 0 0 #81fbff;
+    color: transparent; text-shadow: 0 0 0 #75faff;
     border-radius: 25px;
     padding-bottom: 1px;
     box-shadow: 0 0 3px #65e0ff9d;
