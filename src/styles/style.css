@@ -277,18 +277,16 @@ body{
     }
 }
 /*tableofcontents----------------------------------------------*/
-.tableofcontents{
-    display: flex;
-    justify-content: space-around;
-}
+.tableofcontents{}
+
 .tree{
     -webkit-tap-highlight-color: transparent;
     color: #4c97dd;
     text-align: left;
     padding-left: 20em;
-    position: fixed;
-    top: 5;
-    overflow: hidden;
+    position: sticky;
+    top: 5em;
+
 }
 #topic{
     -webkit-tap-highlight-color: transparent;
