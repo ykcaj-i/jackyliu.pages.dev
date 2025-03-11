@@ -159,7 +159,7 @@ body{
     padding-left: 1.5em;
     border-radius: 15px;
     transition: .25s ease;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     color: #52f3ff;
     font-size: 110%;
@@ -171,7 +171,7 @@ body{
         padding: auto;
         border-radius: 15px;
         transition: .25s ease;
-        font-weight: 500;
+        font-weight: 600;
         text-decoration: none;
         color: #52f3ff;
         font-size: 110%;
@@ -282,8 +282,8 @@ body{
 .tree{
     -webkit-tap-highlight-color: transparent;
     color: #4c97dd;
-    text-align: left;
-    padding-left: 20em;
+    text-align: right;
+    padding-right: 4em;
     position: sticky;
     top: 5em;
 
