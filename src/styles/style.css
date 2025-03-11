@@ -133,7 +133,7 @@ body{
     transition: 1.5s !important;
     /*transform: scaleX(-1);*/
 }
-.darkModeButton:hover{filter: hue-rotate(60deg); background-color: transparent !important;}
+.darkModeButton:hover{filter: hue-rotate(60deg); background-color: transparent !important; transform: rotate(360deg);}
 .emoji{
     font-size: 90%;
     color: transparent; text-shadow: 0 0 0 #64faff;
