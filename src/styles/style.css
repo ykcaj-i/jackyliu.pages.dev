@@ -133,7 +133,7 @@ body{
     transition: 1.5s !important;
     /*transform: scaleX(-1);*/
 }
-.darkModeButton:hover{filter: hue-rotate(185deg); background-color: transparent !important;}
+.darkModeButton:hover{filter: hue-rotate(60deg); background-color: transparent !important;}
 .emoji{
     font-size: 90%;
     color: transparent; text-shadow: 0 0 0 #75faff;
@@ -147,6 +147,7 @@ body{
 /*toppage-------------------------------------------*/
 .link{display: flex; justify-content: center;} /*container for media links*/
 .linkItems{ padding-left: 0.55em; padding-right: 0.55em;} /*media link spacing*/
+.linkItems img:hover{ filter: hue-rotate(50deg);}
 .socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px;
     transition: 3s;
     -webkit-filter: drop-shadow(5px 5px 5px #7cdaff9c);
