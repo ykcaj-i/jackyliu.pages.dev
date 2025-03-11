@@ -54,13 +54,20 @@ body{
         -webkit-filter: drop-shadow(5px 5px 5px transparent);
         filter: drop-shadow(5px 5px 5px transparent);
     }   /*media link sizes*/ 
-
+    /*
     .linkSpan{ border-radius: 25px;
         border-bottom: none;
         border-left: none;
         border-right: none;
         box-shadow: none;
         }
+    */
+    .linkSpan{ border-radius: 25px;
+        border-bottom: solid 1.5px rgba(0, 11, 15, 0.322);
+        border-right: solid 1.5px rgba(0, 11, 15, 0.322);
+        border-left: solid 1.5px rgba(0, 11, 15, 0.322);
+        box-shadow: 0 0 10px rgb(0, 19, 26);
+    }
 }
 /*PASSED QUALITY CHECK*/
 .darkmode{ /*BACKUP*/
