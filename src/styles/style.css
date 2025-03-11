@@ -133,17 +133,22 @@ body{
     transition: 1.5s !important;
     /*transform: scaleX(-1);*/
 }
-.darkModeButton:hover{transform: rotate(360deg); background-color: transparent !important;}
-.emoji{color: transparent; text-shadow: 0 0 0 #52f3ff;}
-    
-    
+.darkModeButton:hover{filter: hue-rotate(185deg); background-color: transparent !important;}
+.emoji{
+    font-size: 90%;
+    color: transparent; text-shadow: 0 0 0 #81fbff;
+    border-radius: 25px;
+    padding-bottom: 1px;
+    box-shadow: 0 0 3px #65e0ff9d;
+    background-color: rgba(159, 255, 250, 0.151);
+}
 
 
 /*toppage-------------------------------------------*/
 .link{display: flex; justify-content: center;} /*container for media links*/
 .linkItems{ padding-left: 0.55em; padding-right: 0.55em;} /*media link spacing*/
 .socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px;
-    transition: 2s;
+    transition: 3s;
     -webkit-filter: drop-shadow(5px 5px 5px #7cdaff9c);
     filter: drop-shadow(5px 5px 5px #7cdaff9c);
 }   /*media link sizes*/ 
