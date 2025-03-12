@@ -11,12 +11,12 @@ body{
     animation: fadeIn 2s forwards;
     background-color: rgb(243, 253, 255); 
     transition: 1s;
-   /*
+/*
     background-repeat: no-repeat;
-    background-image: url(./images/beach.png);
+    background-image: url(./images/plant.png);
     background-size: 100%;
     background-position: top;
-   */
+*/
 }
 @keyframes fadeIn {to {opacity: 1;}}
 .hr0{border: dashed 1px; border-color: #4effff; width: 25%;}
@@ -133,7 +133,7 @@ body{
     transition: 1.5s !important;
     /*transform: scaleX(-1);*/
 }
-.darkModeButton:hover{filter: hue-rotate(60deg); background-color: transparent !important; transform: rotate(360deg);}
+.darkModeButton:hover{background-color: transparent !important; transform: rotate(360deg);}
 .emoji{
     font-size: 90%;
     color: transparent; text-shadow: 0 0 0 #64faff;
