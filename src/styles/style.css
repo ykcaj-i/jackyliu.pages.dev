@@ -29,7 +29,7 @@ body{
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
-        background-image: url(/src/styles/images/wavessaturated2.gif);
+        background-image: url(/src/styles/images/waterwaves8.gif);
         background-size: 180%; 
         background-position: 70%;
         background-clip: text;
@@ -159,10 +159,11 @@ body{
     padding-left: 1.5em;
     border-radius: 15px;
     transition: .25s ease;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
     color: #52f3ff;
-    font-size: 100%;
+    font-size: 105%;
+
 }
 @media (max-width:500px){
     .navButtonElement{
@@ -177,17 +178,22 @@ body{
         font-size: 110%;
     }
 }
-.navButtonElementSpan1{
+
+.navButtonElementSpan{
     color: #52f3ff;
-    background-color: rgba(64, 255, 245, 0.151);
+    background-color: rgba(64, 255, 245, 0.205);
     border-radius: 25px;
 }
-.navButtonElementSpan:hover{
-    transition: 0.5s;
-    color: #34eff5;
-    background-color: rgba(64, 255, 245, 0.158);
+.navButtonElementSpan1{
+    color: #52f3ff;
+    background-color: rgba(64, 255, 245, 0.103);
     border-radius: 25px;
-   
+}
+.navButtonElementSpan1:hover{
+    transition: 0.5s;
+    background-color: transparent;
+    border-radius: 25px;
+
 }
 /*toppage-------------------------------------------*/
 
@@ -535,7 +541,7 @@ body{
 
 .myEmail:visited{
     font-weight: 900;
-    font-size: 110%;
+    font-size: 105%;
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
     color: transparent;
     background-clip: text;
@@ -543,7 +549,7 @@ body{
 }
 .myEmail:link{
     font-weight: 900;
-    font-size: 110%;
+    font-size: 105%;
     background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
     color: transparent;
     background-clip: text;
