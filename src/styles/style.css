@@ -159,10 +159,10 @@ body{
     padding-left: 1.5em;
     border-radius: 15px;
     transition: .25s ease;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
     color: #52f3ff;
-    font-size: 110%;
+    font-size: 100%;
 }
 @media (max-width:500px){
     .navButtonElement{
