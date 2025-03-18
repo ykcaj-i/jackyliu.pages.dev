@@ -29,7 +29,7 @@ body{
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
-        background-image: url(/src/styles/images/waterwaves8.gif);
+        background-image: url(/src/styles/images/bajablast.gif);
         background-size: 180%; 
         background-position: 70%;
         background-clip: text;
@@ -161,8 +161,8 @@ body{
     transition: .25s ease;
     font-weight: 500;
     text-decoration: none;
-    color: #52f3ff;
-    font-size: 105%;
+    color: #52f9ff;
+    font-size: 110%;
 
 }
 @media (max-width:500px){
@@ -174,25 +174,23 @@ body{
         transition: .25s ease;
         font-weight: 600;
         text-decoration: none;
-        color: #52f3ff;
+        color: #52f9ff;
         font-size: 110%;
     }
 }
 
 .navButtonElementSpan{
-    color: #52f3ff;
+    color: #52f9ff;
     background-color: rgba(64, 255, 245, 0.205);
     border-radius: 25px;
 }
 .navButtonElementSpan1{
-    color: #52f3ff;
-    background-color: rgba(64, 255, 245, 0.103);
+    color: #52f9ff;
     border-radius: 25px;
 }
 .navButtonElementSpan1:hover{
     transition: 0.5s;
-    background-color: transparent;
-    border-radius: 25px;
+    background-color: rgba(64, 255, 245, 0.205);
 
 }
 /*toppage-------------------------------------------*/
