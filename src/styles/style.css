@@ -170,10 +170,10 @@ body{
     padding-left: 1.5em;
     border-radius: 15px;
     transition: .25s ease;
-    font-weight: 500;
+    font-weight: 400;
     text-decoration: none;
     color: #52f9ff;
-    font-size: 110%;
+    font-size: 105%;
 
 }
 @media (max-width:500px){
@@ -183,10 +183,10 @@ body{
         padding: auto;
         border-radius: 15px;
         transition: .25s ease;
-        font-weight: 600;
+        font-weight: 500;
         text-decoration: none;
         color: #52f9ff;
-        font-size: 110%;
+        font-size: 105%;
     }
 }
 
@@ -333,7 +333,7 @@ body{
 
 @media (max-width: 599px){
     .maincontent >  div{
-        background-color: white;
+        background-color: transparent;
         padding: 0px;
         margin: 0px;
     }
