@@ -9,8 +9,10 @@ html{ scroll-behavior: smooth;}
 body{
     opacity: 0;
     animation: fadeIn 2s forwards;
-    background-color: rgb(243, 253, 255); 
+    background-color: #f3fdff; 
     transition: 1s;
+
+
 /*
     background-repeat: no-repeat;
     background-image: url(/src/styles/images/windows.png);
@@ -23,10 +25,12 @@ body{
 
 .darkmodeNoTransition{
     background-color: #011d2b;
-    background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-image: url(/src/styles/images/snowymountainsoriginal1.555.png),  url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), url(/src/styles/images/snowymountainsoriginal.png);
-    background-size: 100%, 100%, 100%, 100%, 100%;
-    background-position: top, top, top, bottom, bottom;
+    background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-image: url(/src/styles/images/snowymountainsoriginal1.555.png),  url(/src/styles/images/snowymountainsoriginal1.7.png), url(), 
+    url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), 
+    url(/src/styles/images/snowymountainsoriginal.png);
+    background-size: 100%, 100%, 100%, 100%, 100%, 100%, 100%;
+    background-position: top, top, top, top, top, bottom, bottom;
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
@@ -50,7 +54,7 @@ body{
     #backtotop{ color:rgb(22, 144, 175);}
     .para2-5{ color:rgb(22, 144, 175);}
 
-    .socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px; 
+    .socialsMediaIcon{ width: 1.5em; height: 1.5em; margin-top: 2.5px; opacity: .75;
         
         -webkit-filter: drop-shadow(5px 5px 5px transparent);
         filter: drop-shadow(5px 5px 5px transparent);
