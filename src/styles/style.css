@@ -13,7 +13,7 @@ body{
     transition: 1s;
 /*
     background-repeat: no-repeat;
-    background-image: url(./images/plant.png);
+    background-image: url(/src/styles/images/windows.png);
     background-size: 100%;
     background-position: top;
 */
@@ -23,9 +23,10 @@ body{
 
 .darkmodeNoTransition{
     background-color: #011d2b;
-    background-repeat: no-repeat, no-repeat;
-    background-image: url(/src/styles/images/snowymountainsoriginal.png);
-    background-size: 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-image: url(/src/styles/images/snowymountainsoriginal1.55.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), url(/src/styles/images/snowymountainsoriginal1.png);
+    background-size: 100%, 100%, 100%, 100%;
+    background-position: top, top, bottom, bottom;
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
@@ -67,6 +68,16 @@ body{
         border-right: solid 1.5px rgba(0, 11, 15, 0.322);
         border-left: solid 1.5px rgba(0, 11, 15, 0.322);
         box-shadow: 0 0 10px rgb(0, 49, 66);
+    }
+    .emoji{
+        font-size: 90%;
+        color: transparent; text-shadow: 0 0 0 #64faff;
+        border-radius: 25px;
+        padding-bottom: 1px;
+        background-color: rgb(4, 54, 66);
+    }
+    .navButtonElementSpan{
+        background-color: rgb(4, 54, 66);
     }
 }
 /*PASSED QUALITY CHECK*/
@@ -133,13 +144,13 @@ body{
     transition: 1.5s !important;
     /*transform: scaleX(-1);*/
 }
-.darkModeButton:hover{background-color: transparent !important; transform: rotate(360deg);}
+.darkModeButton:hover{background-color: transparent !important; transform: rotate(180deg);}
 .emoji{
     font-size: 90%;
     color: transparent; text-shadow: 0 0 0 #64faff;
     border-radius: 25px;
     padding-bottom: 1px;
-
+    background-color: #d3f6ff46;
 }
 
 
@@ -197,7 +208,7 @@ body{
 
 /*name----------------------------------------------*/
 .name{
-    padding: 35px 35px 35px 35px ;
+    padding: 15px 15px 15px 15px;
     margin: 0.25em;
     font-family:'IBM Plex Sans';
     font-weight: 500;
@@ -344,8 +355,8 @@ body{
     display: grid;
 }
 .maincontentstyle{
-    background-color: rgb(245, 254, 255);
-    background-image: linear-gradient(to bottom, rgb(245, 254, 255), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(245, 254, 255, 0.596), rgb(238, 255, 254), rgb(230, 255, 253), rgb(170, 255, 248), rgb(187, 255, 249));
     border: whitesmoke;
     border-radius: 25px;
     box-shadow:  0 0 80px 10px  rgb(206, 255, 251);
@@ -359,16 +370,16 @@ body{
 }
 
 .darkmodemain{
-    background-color: #002227;
-    background-image: linear-gradient(to bottom,#011d2b, #011420, #011220);
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,#0220308e, #021f3188, #011b3088);
     border-radius: 25px;
-    box-shadow: 0 0 20px 5px  rgb(3, 47, 83);
+    box-shadow: 0 0 20px 5px  rgb(3, 58, 83);
     animation: glowAnimate 10s infinite;
 }
 
 @keyframes glowAnimate {
     33%{
-        box-shadow: 0 0 20px 5px  rgba(5, 114, 122, 0.466);
+        box-shadow: 0 0 20px 5px  rgba(4, 97, 105, 0.466);
     }
 }
 .aboutcontent{
@@ -457,6 +468,7 @@ body{
     max-width: 100%;
     width: auto;
     height: auto;
+    box-shadow: 0 0 8px #379cbb3b;
 }
 
 .parentcontainer > h1{
