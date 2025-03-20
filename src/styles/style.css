@@ -468,7 +468,7 @@ body{
     max-width: 100%;
     width: auto;
     height: auto;
-    box-shadow: 0 0 8px #379cbb3b;
+    box-shadow: 0 0 5px #51d6ff3b;
 }
 
 .parentcontainer > h1{
@@ -546,7 +546,12 @@ body{
 }
 /*----------------------------*/
 
-
+.songRef{
+    background-image: linear-gradient(to left,  rgb(84, 227, 255), rgb(117, 228, 180),rgb(32, 235, 229));
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+}
 
 
 .myEmail:visited{
