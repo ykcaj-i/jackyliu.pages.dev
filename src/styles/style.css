@@ -23,10 +23,10 @@ body{
 
 .darkmodeNoTransition{
     background-color: #011d2b;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-image: url(/src/styles/images/snowymountainsoriginal1.55.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), url(/src/styles/images/snowymountainsoriginal1.png);
-    background-size: 100%, 100%, 100%, 100%;
-    background-position: top, top, bottom, bottom;
+    background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-image: url(/src/styles/images/snowymountainsoriginal1.555.png),  url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), url(/src/styles/images/snowymountainsoriginal.png);
+    background-size: 100%, 100%, 100%, 100%, 100%;
+    background-position: top, top, top, bottom, bottom;
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
