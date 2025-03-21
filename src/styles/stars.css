@@ -11,30 +11,30 @@
 
 }
 .starsAnimate{
-    animation: animateStar 10s infinite;
-}
-.starsAnimate1{
     animation: animateStar 15s infinite;
 }
-.starsAnimate2{
+.starsAnimate1{
     animation: animateStar 20s infinite;
 }
-.starsAnimate3{
+.starsAnimate2{
     animation: animateStar 25s infinite;
 }
-.starsAnimate4{
+.starsAnimate3{
     animation: animateStar 30s infinite;
 }
-.starsAnimate5{
+.starsAnimate4{
     animation: animateStar 35s infinite;
+}
+.starsAnimate5{
+    animation: animateStar 40s infinite;
 }
 
 @keyframes animateStar {
     33% {
-        transform: scaleX(-1);
+        transform: translateX(70px);
     }
     66%{
-        transform: scaleX(1);
+        transform: translateX(-70px);
     }
 }
 
