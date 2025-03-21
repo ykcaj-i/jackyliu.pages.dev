@@ -11,22 +11,22 @@
 
 }
 .starsAnimate{
-    animation: animateStar 15s infinite;
-}
-.starsAnimate1{
     animation: animateStar 20s infinite;
 }
-.starsAnimate2{
+.starsAnimate1{
     animation: animateStar 25s infinite;
 }
-.starsAnimate3{
+.starsAnimate2{
     animation: animateStar 30s infinite;
 }
-.starsAnimate4{
+.starsAnimate3{
     animation: animateStar 35s infinite;
 }
-.starsAnimate5{
+.starsAnimate4{
     animation: animateStar 40s infinite;
+}
+.starsAnimate5{
+    animation: animateStar 45s infinite;
 }
 
 @keyframes animateStar {
