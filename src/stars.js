@@ -1,3 +1,6 @@
+/*there was no time for any other choice :') */
+
+
 let randomPixel = Math.round(Math.random() * (470 - 20) + 20) + "px";
 console.log(randomPixel);
 
