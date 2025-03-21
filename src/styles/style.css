@@ -43,7 +43,7 @@ body{
     url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), 
     url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal1.555.png);
     background-size: 100%, 100%, 100%, 100%, 100%, 100%, 100%, 100%;
-    background-position: center center, center 136%, center top, center top, center top, center 132%, center 132%, center 132%;
+    background-position: center center, center 136%, center 2%, center 2%, center 2%, center 132%, center 132%, center 132%;
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
