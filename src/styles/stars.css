@@ -6,37 +6,54 @@
 }
 
 .stars{
-    font-size: medium;
+    font-size: x-large;
     text-shadow: 0 0 8px rgb(53, 255, 255);
 
 }
 .starsAnimate{
-    animation: animateStar 20s infinite;
+    animation: animateStar 15s infinite;
 }
 .starsAnimate1{
-    animation: animateStar 25s infinite;
+    animation: animateStar 20s infinite;
 }
 .starsAnimate2{
-    animation: animateStar 30s infinite;
+    animation: animateStar 25s infinite;
 }
 .starsAnimate3{
-    animation: animateStar 35s infinite;
+    animation: animateStar 30s infinite;
 }
 .starsAnimate4{
-    animation: animateStar 40s infinite;
+    animation: animateStar 35s infinite;
 }
 .starsAnimate5{
-    animation: animateStar 45s infinite;
+    animation: animateStar 40s infinite;
 }
 
 @keyframes animateStar {
-    33% {
-        transform: translateX(70px);
-    }
-    66%{
+    25% {
         transform: translateX(-70px);
+        text-shadow: 0 0 8px rgb(125, 255, 255), 0 0 8px rgb(149, 255, 237);
+    }
+    50%{
+        transform: translateX(70px);
+        text-shadow: 0 0 8px rgb(53, 255, 255);
     }
 }
+
+
+/*
+@keyframes animateStar {
+    33% {
+        opacity: 0.1;
+        transform: rotate(360deg);
+    }
+    66%{
+        opacity: 1;
+        transform: rotate(-360deg);
+    }
+}
+*/
+
 
 
 

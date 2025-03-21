@@ -40,7 +40,7 @@ body{
     url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), 
     url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal1.555.png);
     background-size: 100%, 100%, 100%, 100%, 100%, 100%, 100%, 100%;
-    background-position: center center, center bottom, center top, center top, center top, center bottom, center bottom, center bottom;
+    background-position: center center, center 136%, center top, center top, center top, center 132%, center 132%, center 132%;
     .name{
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
@@ -86,7 +86,7 @@ body{
         padding-right: .25em;
     }
     .emoji{
-        font-size: 90%;
+        font-size: 100%;
         color: transparent; text-shadow: 0 0 0 #64faff;
         border-radius: 25px;
         padding-bottom: 1px;
@@ -165,7 +165,7 @@ body{
 }
 .darkModeButton:hover{background-color: transparent !important; transform: rotate(180deg);}
 .emoji{
-    font-size: 90%;
+    font-size: 100%;
     color: transparent; text-shadow: 0 0 0 #64faff;
     border-radius: 25px;
     padding-bottom: 1px;
@@ -487,7 +487,7 @@ body{
     max-width: 100%;
     width: auto;
     height: auto;
-    box-shadow: 0 0 5px #51d6ff3b;
+
 }
 
 .parentcontainer > h1{
@@ -506,7 +506,7 @@ body{
     color: #4effff;
 }
 #txt{
-    font-size: 150%;
+    font-size: 132%;
 }
 #backtotop{
     -webkit-tap-highlight-color: transparent;
@@ -620,3 +620,16 @@ body{
 
 
    
+.purpleNurple{
+    position: absolute; /* Allows precise placement */
+    top: 3500px; /* Adjust this to your desired starting point */
+    left: 0;
+    width: 100%; /* Span the entire width of the page */
+
+    margin: 0;
+    width: 100%;
+    background-color: rgba(8, 12, 73, 0);
+    background-image: linear-gradient(to bottom,  transparent, rgba(19, 14, 87, 0.432) );
+    z-index: -3;
+    height: calc(100vh -400px);
+}
