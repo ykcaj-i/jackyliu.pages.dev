@@ -31,12 +31,10 @@
 
 @keyframes animateStar {
     25% {
-        transform: translateX(-70px);
-        text-shadow: 0 0 8px rgb(125, 255, 255), 0 0 8px rgb(149, 255, 237);
+        transform: translatex(0px) translatey(0px)
     }
     50%{
-        transform: translateX(70px);
-        text-shadow: 0 0 8px rgb(53, 255, 255);
+        transform: translatex(100px) translatey(100px);
     }
 }
 
