@@ -1,12 +1,17 @@
 
 .space{
+    
+    margin: 0;
+    padding: 0;
     align-items: center;
     text-align: center;
     
 }
 
 .stars{
-    font-size: x-large;
+    margin: 0;
+    padding: 0;
+    font-size: large;
     text-shadow: 0 0 8px rgb(53, 255, 255);
 
 }
@@ -30,11 +35,11 @@
 }
 
 @keyframes animateStar {
-    25% {
-        transform: translatex(0px) translatey(0px)
+    33% {
+        transform: translatex(50px);
     }
-    50%{
-        transform: translatex(100px) translatey(100px);
+    66%{
+        transform: translatex(-50px);
     }
 }
 
@@ -67,3 +72,118 @@
         <div class = "stars starsAnimate" id = "stars15" >.</div> <div class = "stars starsAnimate" id = "stars16" >.</div> <div class = "stars starsAnimate" id = "stars17" >.</div>
         <div class = "stars starsAnimate" id = "stars18" >.</div> <div class = "stars starsAnimate" id = "stars19" >.</div> <div class = "stars starsAnimate" id = "stars20" >.</div>
 */
+
+.asciiArt{
+    
+    opacity: .5;
+}
+.tree1{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+.tree2{
+    position: absolute;
+    top: 810px;
+    left: 110px;
+}
+.tree3{
+    position: absolute;
+    top: 820px;
+    left: 120px;
+}
+.tree4{
+    position: absolute;
+    top: 830px;
+    left: 130px;
+    
+}
+.tree5{
+    position: absolute;
+    top: 840px;
+    left: 140px;
+}
+.tree6{
+    position: absolute;
+    top: 850px;
+    left: 150px;
+}
+
+.starSpace{
+    width: 100%;
+    margin: 0;
+}
+
+.starElement{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: #4effff86;
+    text-shadow: -3px 0 7px rgb(53, 255, 255);
+    font-size: large;
+}
+
+.e1{
+    animation: animateE1 50s infinite;
+    top: 125px; left: 0px;
+}
+.e2{
+    animation: animateE1 40s infinite;
+    top: 30px; left: 0px;
+}
+.e3{
+    animation: animateE1 220s infinite;
+    top: 235px; left: 0px;
+}
+.e4{
+    animation: animateE1 120s infinite;
+    top: 361px; left: 0px;
+}
+.e5{
+    animation: animateE2 80s infinite;
+    top: 315px;left: 0px;
+}
+.e6{
+    animation: animateE3 50s infinite;
+    top: 95px;left: 0px;
+}
+.e7{
+    animation: animateE4 68s infinite;
+    top: 400px;left: 0px;
+}
+.e8{
+    animation: animateE5 400s infinite;
+    top: 75px;left: 0px;
+}
+.e9{
+    animation: animateE1 40s infinite;
+    top: 421px; left: 0px;
+}
+
+
+@keyframes animateE1 {
+
+    100%{
+        transform: translate(1895px);
+    }
+}
+@keyframes animateE2 {
+    100%{
+        transform: translatex(1895px);
+    }
+}
+@keyframes animateE3 {
+    100%{
+        transform: translatex(1895px);
+    }
+}
+@keyframes animateE4 {
+    100%{
+        transform: translatex(1895px);
+    }
+}
+@keyframes animateE5 {
+    100%{
+        transform: translatex(1895px);
+    }
+}

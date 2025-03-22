@@ -25,6 +25,12 @@ body{
         display: none;
     }
 }
+@media(max-width: 1800px){
+    .starSpace{
+        display: none;
+    }
+}
+
 
 @keyframes fadeIn {to {opacity: 1;}}
 .hr0{border: dashed 1px; border-color: #4effff; width: 25%;}
