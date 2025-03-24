@@ -593,18 +593,3 @@ body{
 }
  
 
-
-   
-.purpleNurple{
-    position: absolute; /* Allows precise placement */
-    top: 3500px; /* Adjust this to your desired starting point */
-    left: 0;
-    width: 100%; /* Span the entire width of the page */
-
-    margin: 0;
-    width: 100%;
-    background-color: rgba(8, 12, 73, 0);
-    background-image: linear-gradient(to bottom,  transparent, rgba(19, 14, 87, 0.432) );
-    z-index: -3;
-    height: calc(100vh -400px);
-}
