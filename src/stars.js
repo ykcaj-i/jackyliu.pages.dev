@@ -47,7 +47,7 @@ element = document.getElementById('stars5').style.color = "#4effff86";
 element = document.getElementById('stars5').style.position = "absolute";
 randomPixel = Math.round(Math.random() * (470 - 20) + 20) + "px";
 element = document.getElementById('stars5').style.top = `${randomPixel}`;
-
+randomPixel = Math.round(Math.random() * (1730 - 500) + 500) + "px";
 element = document.getElementById('stars5').style.left = `${randomPixel}`;
 
 element = document.getElementById('stars6').style.color = "#4effff86";
