@@ -1,4 +1,3 @@
-/*there was no time for any other choice :') */
 
 
 let randomPixel = Math.round(Math.random() * (470 - 20) + 20) + "px";
@@ -29,7 +28,7 @@ element = document.getElementById('stars2').style.top = `${randomPixel}`;
 randomPixel = Math.round(Math.random() * (1000 - 200) + 200) + "px";
 element = document.getElementById('stars2').style.left = `${randomPixel}`;
 
-randomPixel = Math.round(Math.random() * (470 - 20) + 20) + "px";
+
 element = document.getElementById('stars3').style.color = "#4effff86";
 element = document.getElementById('stars3').style.position = "absolute";
 randomPixel = Math.round(Math.random() * (470 - 20) + 20) + "px";
