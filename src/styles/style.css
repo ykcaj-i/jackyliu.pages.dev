@@ -4,7 +4,7 @@
     --white: #ffffff;
   }
 
-*{font-family:'IBM Plex Sans';}
+*{font-family:'Inconsolata';}
 html{ scroll-behavior: smooth;} 
 body{
     opacity: 0;
