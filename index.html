@@ -34,7 +34,7 @@
         <div class="tree4">┇┇</div><div class="tree5">┇┇</div><div class="tree6">┇┇</div>
     </div> 
     -->  
-    <nav class = "parentContainer">
+    <header class = "parentContainer">
         <div class = "childContainer container1">
             <div class = "link">
                 <span class = "linkSpan">
@@ -47,7 +47,18 @@
                 </span>   
             </div> 
         </div>
-        
+        <br>
+        <nav class = "childContainer container2">
+            <div class = "navButton"> <!--navButton-->      
+                <span>
+                    <a href = #top class="navButtonElement navButtonElement1"><span class = "navButtonElementSpan" id = "home">&nbsp;● home&nbsp;</span></a>
+                    <a href = #contacts class="navButtonElement navButtonElement2"><span class = "navButtonElementSpan1">&nbsp;contact&nbsp;</span></a> 
+                    <a href = #album class="navButtonElement navButtonElement2"><span class = "navButtonElementSpan1">&nbsp;artwork&nbsp;</span></a> 
+                    <button class = "navButtonElement darkModeButton" onclick="darkMode()"><div class = "emoji">🔅</div></button>
+                </span>
+            </div> <!--navbarButton-->
+        </nav>
+        <br>
         <div class = "childContainer container3">
             <header id = "header">  
                 <div class="myName">
@@ -61,22 +72,12 @@
             </header>
         </div> <!--container3-->  
         <br>
-        <div class = "childContainer container2">
-            <div class = "navButton"> <!--navButton-->      
-                <span>
-                    <a href = #top class="navButtonElement navButtonElement1"><span class = "navButtonElementSpan" id = "home">&nbsp;● home&nbsp;</span></a>
-                    <a href = #contacts class="navButtonElement navButtonElement2"><span class = "navButtonElementSpan1">&nbsp;contact&nbsp;</span></a> 
-                    <a href = #album class="navButtonElement navButtonElement2"><span class = "navButtonElementSpan1">&nbsp;artwork&nbsp;</span></a> 
-                    <button class = "navButtonElement darkModeButton" onclick="darkMode()"><div class = "emoji">🔅</div></button>
-                </span>
-            </div> <!--navbarButton-->
-        </div>
         <br>
-    </nav>
+    </header>
     <!------------------------------------------------------------------HEADER-->
     <br><br>
     <!-------------------------------------------------------------------------------------------------------------------------------mainpage content\\--->
-    <div class = "mainpage">
+    <main class = "mainpage">
         <!------------------------------------------------------------------------------------------------------------------------------------------TREE-->
         <div class="tableofcontents" id = "flexboxspacing">
             <div class="tree" id = "tree">
@@ -227,7 +228,7 @@
         <div class="misc" id = "flexboxspacing">
         </div>
         </div>
-    </div>
+    </main>
  <!-------------------------------------------------------------------------------------------------------------------------------mainpage content\\--->            
  <!-------------------------------------------------------------------------------------------------------------------------------secondpage content\\--->
  <div class = "secondpage">
@@ -253,7 +254,7 @@
     </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br><br>
-</div>
+<footer>
     <div id = "contacts">
         <p class = "para2">
             <br><br>
@@ -335,13 +336,13 @@
     
     <br><br><br>
 <!-------------------------------------------------------------------------------------------------------------------------------secondpage content\\--->
-<footer>
+
     <div>
         <p class = "para2-5"><font style = "font-size: 150%;">&copy;</font>&nbsp;2025 jackys.space</p>
         <p class = "para2-5">all rights reserved</p>
     </div>
 </footer>
-<br>
+
 <!--example gsap
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script>
