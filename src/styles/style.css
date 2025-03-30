@@ -51,7 +51,8 @@ body{
     background-size: 100%, 100%, 100%, 100%, 100%, 100%, 100%, 100%;
     background-position: center center, center 137%, center 2%, center 2%, center 2%, center 137%, center 137%, center 137%;
     .name{
-        font-family: IBM Plex Sans;
+        font-family:'IBM Plex Mono';
+        font-weight: 500;
         font-size: 2.95rem;
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
@@ -214,7 +215,7 @@ body{
 .name{
     padding: 15px 15px 15px 15px;
     margin: 0.25em;
-    font-family: IBM Plex Sans;
+    font-family:'IBM Plex Mono';
     font-weight: 500;
     font-size: 2.95rem;
     color: #4effff;
