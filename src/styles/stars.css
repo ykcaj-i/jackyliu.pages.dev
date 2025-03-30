@@ -124,11 +124,11 @@
 }
 
 .e1{
-    animation: animateE1 50s infinite;
+    animation: animateE1 80s infinite;
     top: 125px; left: 0px;
 }
 .e2{
-    animation: animateE1 40s infinite;
+    animation: animateE1 70s infinite;
     top: 30px; left: 0px;
 }
 .e3{
@@ -140,15 +140,15 @@
     top: 361px; left: 0px;
 }
 .e5{
-    animation: animateE2 80s infinite;
+    animation: animateE2 90s infinite;
     top: 315px;left: 0px;
 }
 .e6{
-    animation: animateE3 90s infinite;
+    animation: animateE3 190s infinite;
     top: 95px;left: 0px;
 }
 .e7{
-    animation: animateE4 68s infinite;
+    animation: animateE4 168s infinite;
     top: 400px;left: 0px;
 }
 .e8{
