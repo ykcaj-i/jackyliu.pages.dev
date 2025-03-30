@@ -52,7 +52,6 @@ body{
     background-position: center center, center 137%, center 2%, center 2%, center 2%, center 137%, center 137%, center 137%;
     .name{
         font-family: IBM plex mono;
-        
         font-size: 2.75em;
         color: #4effff;
         text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
