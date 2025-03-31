@@ -20,6 +20,25 @@ body{
     background-position: top;
 */
 }
+
+.nameJacky{
+    display: flex;
+    justify-content: center;
+    h1{
+        padding: 1rem;
+        color:#4effff;
+        font-weight: 500;
+        font-family: comfortaa;
+        text-shadow: 0 0 3px rgba(18, 118, 148, 0.233);
+        background-image: url(/src/styles/images/bajablast.gif);
+        background-size: 180%; 
+        background-position: 70%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
 @media(max-width: 1800px){
     .space{
         display: none;
@@ -44,12 +63,12 @@ body{
     flex-direction: column;
     margin: none;
     background-color: #011d2b;
-    background-repeat: no-repeat, no-repeat, no-repeat,  no-repeat, no-repeat, no-repeat, no-repeat;
-    background-image: url(/src/styles/images/snowymountainsoriginal1.555.png),  url(/src/styles/images/snowymountainsoriginal1.png), url(/src/styles/images/snowymountainsoriginal1.7.png), 
-    url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal4.png), 
+    background-repeat: no-repeat, no-repeat, no-repeat,  no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-image: url(/src/styles/images/snowymountainsoriginal1.555.png),  url(/src/styles/images/snowymountainsoriginal1.png), url(/src/styles/images/snowymountainsoriginal1.55.png), 
+    url(/src/styles/images/snowymountainsoriginal4.4.png), url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal1.1.png), 
     url(/src/styles/images/snowymountainsoriginal.png), url(/src/styles/images/snowymountainsoriginal1.555.png);
-    background-size: 100%, 100%, 100%, 100%, 100%, 100%, 100%, 100%;
-    background-position: center center, center 137%, center 2%, center 2%, center 2%, center 137%, center 137%, center 137%;
+    background-size: 100%, 100%, 100%, 100%, 100%, 100%, 100%, 100%, 100%;
+    background-position: center center, center 137%, center 2%, center 2%, center 2%, center 137%, center 137%, center 137%, center 0%;
     .name{
         font-family:'IBM Plex Sans';
         font-weight: 500;
@@ -127,7 +146,7 @@ body{
     border-left: solid 1.5px rgba(56, 199, 255, 0.11);
     box-shadow: 0 0 8px rgba(56, 199, 255, 0.233);
     }
-.container1{padding-top: 2.8rem; padding-bottom: 2.8rem;}
+.container1{padding-top: 2.9rem; padding-bottom: 2.8rem;}
 .container2{padding-bottom: 1em;}
 .container3{}
     
